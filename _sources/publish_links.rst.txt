@@ -1,0 +1,68 @@
+========================
+調査データ/リンク
+========================
+
+開幕全地形 / パフェ成功率順
+===========================================
+
+ゲーム開始直後の開幕で7ミノ or 6ミノを置いてできる地形で、そのあと最もパフェしやすい地形を列挙したページ。
+
+7ミノ
+----------
+
+* `地形：7ミノ <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/7mino_all.html>`_
+
+
+6ミノ
+----------
+
+* `地形：Iホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutI.html>`_
+* `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutT.html>`_
+* `地形：Oホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutO.html>`_
+* `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutS.html>`_
+* `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutL.html>`_
+
+
+全四角 / ミノの組み合わせ別
+===========================================
+
+ミノをうまく組み合わせて四角形をつくることができるすべての手順をテト譜にまとめたページ。 (途中でライン消去が必要なものも含む）
+
+高さ3
+----------
+
+* `4x3 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares4x3.html>`_
+
+
+高さ4
+----------
+
+* `3x4 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares3x4.html>`_
+* `4x4 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares4x4.html>`_
+* `5x4 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares5x4.html>`_
+* `6x4 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares6x4.html>`_
+
+
+高さ6
+----------
+
+* `2x6 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares2x6.html>`_
+* `4x6 <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/allsquares4x6.html>`_
+
+.. note::
+
+  :ref:`pc_gdrive` でより大きい組み合わせのHTMLも公開しています
+
+
+全パフェパターン画像
+===========================================
+
+7種1巡＆SRS上でのすべての4ラインパーフェクトクリアをひとつにまとめた画像。
+
+8760290個のパフェが含まれています。凄い大きい。
+
+http://gigapan.com/gigapans/201912
+
+.. note::
+
+  :ref:`pc_gdrive` で元画像（ミノの組み合わせごとの画像）も公開しています

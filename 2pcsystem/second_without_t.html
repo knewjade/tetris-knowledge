@@ -1,0 +1,744 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>パフェ2回目：Tなし &mdash; newjade-tetris-knowledge 1.0 ドキュメント</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="索引"
+              href="../genindex.html"/>
+        <link rel="search" title="検索" href="../search.html"/>
+    <link rel="top" title="newjade-tetris-knowledge 1.0 ドキュメント" href="../index.html"/>
+        <link rel="up" title="2連パフェ体系化" href="index.html"/>
+        <link rel="next" title="記事" href="../blogs/index.html"/>
+        <link rel="prev" title="パフェ2回目：Tあり" href="second_with_t.html"/>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93540402-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93540402-2');
+</script>
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> newjade-tetris-knowledge
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../publish_tools.html">つくったツール</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../publish_tools.html#solution-finder">solution-finder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../publish_tools.html#mobliss-beta">mobliss (beta)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../publish_links.html">調査データ/リンク</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../publish_links.html#id2">開幕全地形 / パフェ成功率順</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../publish_links.html#id3">7ミノ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../publish_links.html#id5">6ミノ</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../publish_links.html#id6">全四角 / ミノの組み合わせ別</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../publish_links.html#id7">高さ3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../publish_links.html#id8">高さ4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../publish_links.html#id12">高さ6</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../publish_links.html#id14">全パフェパターン画像</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../publish_docs.html">調査データ/ドキュメント</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../publish_docs.html#perfect-clear-data-google-drive">Perfect Clear Data / Google drive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../publish_docs.html#v115">テト譜v115の仕様（フィールドのみ）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../publish_docs.html#id2">パフェ2回目（4ミノ編）</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">2連パフェ体系化</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="first.html">パフェ1回目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="first.html#id2">ゲームスタート</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="first.html#id3">セットアップ確率</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="first.html#id4">詰め</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="first.html#id5">パフェ成功率</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="second_pre.html">パフェ2回目のまえに</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="second_pre.html#id2">パリティ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_pre.html#id3">ライン消去のルール</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_pre.html#id5">1回目からのミノの持ち越し</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="second_with_t.html">パフェ2回目：Tあり</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="second_with_t.html#id1">対応表</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_with_t.html#a">パターンA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_with_t.html#b">パターンB</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_with_t.html#c">パターンC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="second_with_t.html#addition-with-t">補足</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="second_with_t.html#itsz">ITSZ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="second_with_t.html#otsz">OTSZ</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">パフェ2回目：Tなし</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">対応表</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a">パターンA\'</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b">パターンB\'</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c">パターンC\'</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#d">パターンD\'</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#e">パターンE\'</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">おまけ</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">パターンB\'：パフェ重視</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">パターンE\'：パフェ重視</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../blogs/index.html">記事</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">連絡先</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">newjade-tetris-knowledge</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">2連パフェ体系化</a> &raquo;</li>
+        
+      <li>パフェ2回目：Tなし</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/2pcsystem/second_without_t.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="t">
+<h1>パフェ2回目：Tなし<a class="headerlink" href="#t" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p><strong>5地形でパフェ1回目テンプレ＆グレースシステムの残りミノはカバーできます</strong></p>
+<div class="section" id="id1">
+<h2>対応表<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="29%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">IO**</th>
+<th class="head">A\'</th>
+<th class="head">B\'</th>
+<th class="head">C\'</th>
+<th class="head">D\'</th>
+<th class="head">E\'</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>IOLJ</td>
+<td>O</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>IOSZ</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>O</td>
+</tr>
+<tr class="row-even"><td>IOLS = IOJZ</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>IOLZ = IOJS</td>
+<td>&#160;</td>
+<td>(O)</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="29%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">I***</th>
+<th class="head">A\'</th>
+<th class="head">B\'</th>
+<th class="head">C\'</th>
+<th class="head">D\'</th>
+<th class="head">E\'</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ILJS = ILJZ</td>
+<td>(O)</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+<td>O</td>
+</tr>
+<tr class="row-odd"><td>ILSZ = IJSZ</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="29%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">O***</th>
+<th class="head">A\'</th>
+<th class="head">B\'</th>
+<th class="head">C\'</th>
+<th class="head">D\'</th>
+<th class="head">E\'</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>OLJS = OLJZ</td>
+<td>O</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>OLSZ = OJSZ</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="29%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">****</th>
+<th class="head">A\'</th>
+<th class="head">B\'</th>
+<th class="head">C\'</th>
+<th class="head">D\'</th>
+<th class="head">E\'</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>LJSZ</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>O</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+<div class="section" id="a">
+<h2>パターンA\'<a class="headerlink" href="#a" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_0015.png"><img alt="a2_fig01" src="../_images/fig_0015.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0025.png"><img alt="a2_fig02" src="../_images/fig_0025.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0035.png"><img alt="a2_fig03" src="../_images/fig_0035.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0045.png"><img alt="a2_fig04" src="../_images/fig_0045.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0055.png"><img alt="a2_fig05" src="../_images/fig_0055.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0065.png"><img alt="a2_fig06" src="../_images/fig_0065.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0074.png"><img alt="a2_fig07" src="../_images/fig_0074.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0083.png"><img alt="a2_fig08" src="../_images/fig_0083.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0092.png"><img alt="a2_fig09" src="../_images/fig_0092.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0102.png"><img alt="a2_fig10" src="../_images/fig_0102.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>I と O のおく場所を固定するパターンです。</p>
+<p>パフェパターンがわかりやすく、高い成功率を維持することができる地形です。</p>
+<p><a href="http://fumen.zui.jp/?v115@LhBthlFeg0BtglRpDei0glRpJeAglLhhlxwGeRpHeB?PMeAAeLhAPAeRaFeAPxSAtFeAPAehlLeAAeMhBPHeRpGexw?hlLeAAAMhxhHeBPAeRpDeTLhWJeAAALhgWwSQawSQpg0EeR?axSEeRaBexwJeAAAOhRpHexhIehWJeAAALhhlBehHEexwhl?Eeh0BexSJeAAALhBtglgWFeAtBPhWAPDeQaAPglyhJeAAAL?hhHRphlEeBtRaFeRpxhKeAAA" target="_blank">
+  セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@LhD8FeF8DeF8JeAg0YAlfT6BY0DfEToXOBlvs2AUDE?fETo/ACYgwwFeBtxwGeBtwwTezhRpwwGeRpxwR4FewwR4Qe?AAtAAOgAtFeh0AtQaFeglAPQawSFeg0hWwSPeQ4IeglQ4hl?FewhglwDQLFewhRaglPeAAeNgglgWFegHgWAegWFegHwwAe?glFeQaRpQeQag0HeQaAewwgWFewhAewwgWGeRaQpPeAAeNg?gWQpHewhQpFeAtQaRpFeQahlQpPeQagHHeQagWHexSglQ4F?eSaglPeAAeOgQaFeglAPRaFegWglRaFegWQLwSwhPeglIeh?lwDg0FehWQLQaFewSQpglQaPeAAe" target="_blank">
+   消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@LhD8FeF8DeF8JeAgH -p *!
+
+# パフェ成功率
+success = 95.00% (4788/5040)
+* -&gt; 95.00 %
+∟ T -&gt; 100.00 %
+∟ I -&gt; 95.00 %
+∟ L -&gt; 97.50 %
+∟ J -&gt; 97.50 %
+∟ S -&gt; 89.17 %
+∟ Z -&gt; 89.17 %
+∟ O -&gt; 96.67 %
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="b">
+<h2>パターンB\'<a class="headerlink" href="#b" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_0016.png"><img alt="b2_fig01" src="../_images/fig_0016.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0026.png"><img alt="b2_fig02" src="../_images/fig_0026.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0036.png"><img alt="b2_fig03" src="../_images/fig_0036.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0046.png"><img alt="b2_fig04" src="../_images/fig_0046.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0056.png"><img alt="b2_fig05" src="../_images/fig_0056.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0066.png"><img alt="b2_fig06" src="../_images/fig_0066.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>O と [SZ] のおく場所を固定するパターンです。</p>
+<p>ここでまとめた地形の中で最もパフェ成功率が低いですが、
+パフェパターンが3パターンに集約可能なうえ、
+パフェできない場合でもSTSDやT-Spin Double-Tripleが狙えるので展開しやすい地形です。</p>
+<p>Tがはやいとパフェしやすい（先頭の場合は100%）のため、
+Tがはやいときはパフェ、遅いときはT-Spinで割り切るのもひとつの戦略としてありです。</p>
+<p><a href="http://fumen.zui.jp/?v115@JhglBeQ4DeRpglBtR4CeRphlBtQ4MeAgHRhRaHehWR?aPeAAAJhAtGexhAthlEehlBexSNeAAAJhgHAeAtwDAeg0Be?xSgHhWBeg0RpxSQaQph0Qag0RpJeAAAZhRpFeRLhWJeAAAO?hAPGeRLAPxSDehHBehlJeAAA" target="_blank">
+  セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@JhA8BeA8DeG8CeG8MeAgWYAlfT6BY0DfEToXOBlvs2?AUDEfETo/AC9gRpBtzhh0RpAeBtAehlg0wwGeglxwGeglg0?wwJeAAtNBse88AwXHDBQOHSA1dEEBBYHDBwveRA1dkRBDYH?DBwicRASoDfETo3ABlvs2A2HEfEVZi9AFbcRA1d0KB3XnQB?YDDSA1AlVBhAAAASgwwhlGexwglGewwR4GeR4glNeywAeBP?FeAtRawSGeQaIeRawSJeAAtGBlvs2AVGEfETY+2Bl/m9BFw?DfE112KBlvs2AWJ88AwXHDBwPjRA1d0KBlrDfETYp6Alvs2?AiJEfET4d3Blvs2AGdAAA" target="_blank">
+   消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@JhA8BeA8DeG8CeG8MeAgH -p *!
+
+# パフェ成功率  # 右側あけ
+success = 80.00% (4032/5040)
+* -&gt; 80.00 %
+∟ T -&gt; 100.00 %
+∟ I -&gt; 75.00 %
+∟ L -&gt; 75.00 %
+∟ J -&gt; 75.00 %
+∟ S -&gt; 75.00 %
+∟ Z -&gt; 80.00 %
+∟ O -&gt; 80.00 %
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">注釈</p>
+<p><a class="reference internal" href="../_images/fig_note.png"><img alt="b2_note" src="../_images/fig_note.png" style="width: 171.0px; height: 69.0px;" /></a></p>
+<p class="last">Oの位置を変えることで STMB Cave などのドネイトも狙えるようになる。</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="c">
+<h2>パターンC\'<a class="headerlink" href="#c" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_0017.png"><img alt="c2_fig01" src="../_images/fig_0017.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0027.png"><img alt="c2_fig02" src="../_images/fig_0027.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0037.png"><img alt="c2_fig03" src="../_images/fig_0037.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0047.png"><img alt="c2_fig04" src="../_images/fig_0047.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>[SZ] と [JL] のおく場所を固定するパターンです。</p>
+<p>パフェパターンを3パターンで網羅できるのが特徴。</p>
+<p>LJSZで組むとき、余裕があればネクストをみながら固定するミノを決めることで、パフェ成功率をあげることができる。</p>
+<p><a href="http://fumen.zui.jp/?v115@HhglBeQ4FeglBtR4g0DehlBtQ4i0LeAgHKhQaIeRaI?egHSLLeAAAHhgWBegHBeAtBeg0gWBPgHAPgWAtR4g0jWwhQ?pj0JeAAANhgWHehWEeSawSNeAAA" target="_blank">
+  セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@HhA8BeA8FeF8DeH8LeAgWYAlfT6BY0DfEToXOBlvs2?AUDEfETo/ACZfBti0BeQ4BeA8BtA8g0BeR4AeF8zhH8Q4Ke?Bti0DewhA8BtA8g0BewwAewhF8ywwhH8AewhJeBti0Q4EeB?tAeg0R4ilFeQ4glVeAAt9AzXHDBQGfRA1dUzBGYHDBQpHSA?1d0ACzXHDBQRsRA1jB0ByXnQBm0nRA1d0KB3XHDBQeJSA1d?kRBiAAAA" target="_blank">
+   消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@HhA8BeA8FeF8DeH8LeAgH -p *!
+
+# パフェ成功率  # 右側あけ
+success = 93.33% (4704/5040)
+* -&gt; 93.33 %
+∟ T -&gt; 88.06 %
+∟ I -&gt; 100.00 %
+∟ L -&gt; 85.28 %
+∟ J -&gt; 95.28 %
+∟ S -&gt; 89.44 %
+∟ Z -&gt; 95.28 %
+∟ O -&gt; 100.00 %
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="d">
+<h2>パターンD\'<a class="headerlink" href="#d" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_0018.png"><img alt="d2_fig01" src="../_images/fig_0018.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0028.png"><img alt="d2_fig02" src="../_images/fig_0028.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0038.png"><img alt="d2_fig03" src="../_images/fig_0038.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0048.png"><img alt="d2_fig04" src="../_images/fig_0048.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0057.png"><img alt="d2_fig05" src="../_images/fig_0057.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0067.png"><img alt="d2_fig06" src="../_images/fig_0067.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0075.png"><img alt="d2_fig07" src="../_images/fig_0075.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0084.png"><img alt="d2_fig08" src="../_images/fig_0084.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0093.png"><img alt="d2_fig09" src="../_images/fig_0093.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0103.png"><img alt="d2_fig10" src="../_images/fig_0103.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>O と [JL] のおく場所を固定するパターンです。</p>
+<p>ツモが I O [SZ] [JL] の組み合わせだった場合は柔軟に組め、
+余裕があれば、ネクストをみてから LJ のどちらを固定するか決めることができる。</p>
+<p>もし、ふたつめのJSが早い場合は OJのスペース をあけ、LZが早い場合は OLのスペース をあけておくと良いです。</p>
+<p>パフェパターンはTが遅いとき、複雑になりやすい傾向があるため、
+そのときはSZを立てたり引っ掛けたりして、T-Spinに切り替えてしまうのもひとつの手です。</p>
+<p><a href="http://fumen.zui.jp/?v115@9gwhIewhBeR4Eewhg0R4RpDewhi0RpNeAgH9gwhIew?hIewhAPIeSLPeAAA9gQaIeQaBeQLFeQawhAPQLBtEehlwhQ?aAtNeAAAKhglwSHeAtxSGeBtQaNeAAA9gQaAeglGeQaAegl?GeglAeQaAPFeglAegWSLNeAAA/ggWFewhBegWBPBtBewhxS?hWRaBtglwhxSRaklwhJeAAAGhwwIewwHeAtwwFeSaKeAAAG?hQLFeglBeQLDexhglQawSQLDewhQpwwhlKeAAAMhQpwhGeR?pAPGegWBPMeAAAEhg0AeQaGeg0AeQaFeAtQpAeglDeSagWA?eglJeAAA" target="_blank">
+  セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@9gA8IeA8BeB8EeF8DeF8NeAgWYAlfT6BY0DfEToXOB?lvs2AUDEfETo/ACneA8RpFewwA8RpB8hlAexwF8glBtwwF8?glAeBtJeA8RpGeA8RpB8CeQ4AeF8BtR4F8AeBtQ4JeA8RpG?eA8RpB8AewwCeF8xwR4F8wwR4LeRpHeRpFewwFeBtxwGeBt?wwJeAAtCBlvs2A1sDfET4p9B0XHDBQhlRA1dEEBDY3JBXJD?SAVSk9ADHrRBRrDfET4UBBlvV6BirDfEX5uHBP0nRAyfAAA?neAAxSFeQLAAxSBAhWAeRLFAgWBPQLFAgWAeBPJeAAxSGeA?AxSBACewDAeFABPxDFAAeBPwDRewwwhFeQLxwwhFeRagWgH?FeQLxSwhSewwGeAtwwIehlFeAtRpKeAAtnBl/+AC11DfEYk?JIBlvs2A0EEfETYd9Alvs2A4EEfETI02Al/PVB5BEfETYtR?Blvs2AWxDfETYFwBlvs2AUGEfETo/AClvs2AUuDfETYp6Al?vs2AiJEfET4d3Blvs2AGtmAAneA8RpCewwhlwhA8RpB8Aex?wglwhF8BtglwhF8wwBtwhJeA8Rpi0wwBtAeA8RpB8g0xwBt?F8wwCeF8zhPeQ4AeQLAtFeQ4glAeAtFehWwSAtFeglQpAPQ?aKexSFeQaAexSBexwwhRaFewhglRaFeAPwDwSwhJeAAtnBl?/+AC11DfEYkJIBlvs2A0EEfETYd9Alvs2A4EEfETI02Al/P?VB5BEfETYtRBlvs2AWxDfETYFwBlvs2AUGEfETo/AClvs2A?UuDfETYp6Alvs2AiJEfET4d3Blvs2AG9oAA" target="_blank">
+   消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@/gA8IeC8EeF8DeF8NeAgH -p *!
+
+# パフェ成功率  # OJを固定した地形
+success = 88.06% (4438/5040)
+* -&gt; 88.06 %
+∟ T -&gt; 92.50 %
+∟ I -&gt; 81.53 %
+∟ L -&gt; 82.92 %
+∟ J -&gt; 85.00 %
+∟ S -&gt; 94.44 %
+∟ Z -&gt; 88.33 %
+∟ O -&gt; 91.67 %
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="e">
+<h2>パターンE\'<a class="headerlink" href="#e" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_0019.png"><img alt="e2_fig01" src="../_images/fig_0019.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0029.png"><img alt="e2_fig02" src="../_images/fig_0029.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0039.png"><img alt="e2_fig03" src="../_images/fig_0039.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_0049.png"><img alt="e2_fig04" src="../_images/fig_0049.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>O と [JL] のおく場所を固定するパターンです。</p>
+<p>IOSZでよく使う地形で、そのときはネクストをみてから地形を決めることができます。</p>
+<p>もしふたつめの Z がはやければ右端あけ、S がはやければ左端あけにすると良いです。</p>
+<p>それによってある程度パターンを絞りやすくなり、パフェできないときは端開けRENに切り替えられます。</p>
+<p><a href="http://fumen.zui.jp/?v115@KhAtFeRpBtR4DeRpAtR4zhKeAgHKhgWFeQpQahWFeR?pglQeAAAKhgWBeQ4CegHiWxSR4RpgHRLhHRpg0glQpJeAAA?NhQaIeRaQpQaGeQLRaJeAAA" target="_blank">
+  セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@KhA8FeF8DeI8KeAgWYAlfT6BY0DfEToXOBlvs2AUDE?fETo/ACLgg0zhBeAtBei0A8BeBtwwAeF8AtywI8KeRpilBe?Atg0AeRpglCeBtg0GeAth0UeAAPrAaoo2Alvs2A0E88AwXH?DBQBOSA1dkRB0XHDBQelRA1d0KB4XHDBQeRBAZfRpilBei0?RpglA8zhQ4g0F8BeR4I8Q4Jeg0zhR4DexwQ4g0Q4QpQaklA?eB8RaQLglIeglOewwAeAPgHwhDexwwhQpxhFeQpwhgHwhIe?whJeAAtrAaoo2Alvs2A0E88AwXHDBQuCSA1dcHBEYHDBQel?RA1d0KB4XHDBQeRBA" target="_blank">
+   消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@KhA8FeF8DeI8KeAgH -p *!
+
+# パフェ成功率  # 右端あけ
+success = 87.50% (4410/5040)
+* -&gt; 87.50 %
+∟ T -&gt; 85.56 %
+∟ I -&gt; 86.67 %
+∟ L -&gt; 86.39 %
+∟ J -&gt; 89.17 %
+∟ S -&gt; 82.50 %
+∟ Z -&gt; 94.72 %
+∟ O -&gt; 87.50 %
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id2">
+<h2>おまけ<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ここから先はおまけなので、覚える必要はありません。</p>
+<p>パフェ成功率を重視したい方は、参考にしてください。</p>
+<div class="section" id="id3">
+<h3>パターンB\'：パフェ重視<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_00110.png"><img alt="b2p_fig01" src="../_images/fig_00110.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00210.png"><img alt="b2p_fig02" src="../_images/fig_00210.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00310.png"><img alt="b2p_fig03" src="../_images/fig_00310.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00410.png"><img alt="b2p_fig04" src="../_images/fig_00410.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>パターンB\'のパフェ重視の地形です。</p>
+<p>パターンB\'のパフェ率80%が気になる場合は、この地形で代用できます。</p>
+<p>パフェパターンの絞り込みが他地形と比較して少し難しいです。</p>
+<p><a href="http://fumen.zui.jp/?v115@/gQ4IeR4FeRpg0Q4BtDeRpi0BtMeAgH/ggHIegHQLH?eRLHeQLBPOeAAA/gg0Ieg0wwFeRawhwwFeQagWAeRaOeAAA?/gwDDeAtDexDBeBtBeiWwDRpAtglRpgWRah0hWglRpJeAAA?YhAtRpEeSagWQpJeAAAEhwSHeglwSHeglQLxSEexwAeglwS?JeAAAa" target="_blank">
+   セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@/gA8IeB8FeF8DeG8MeAgWYAlfT6BY0DfEToXOBlvs2?AUDEfETo/ACneRpA8GeRpB8EeglF8zhG8ilJeRpA8GeRpB8?AeBtCeF8BtR4G8R4KeRpA8GeRpB8BeQ4AewwAeF8R4xwG8Q?4wwKeRpCehlwhBeRpDeglwhAewwFeglwhxwGewhAewwJeAA?tAAqeBtIeBtilQpFewhQaBtGehWQpMeBtIeAtAewSyhFeBP?wDQLGeRLglSewhFewDAeQLwhFeRawhAPGewDxhOehWAtFeh?0BtwwQLFeBthlGeg0Q4QLJeAAe" target="_blank">
+    消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@/gA8IeB8FeF8DeG8MeAgH -p *!
+
+# パフェ成功率  # 右端あけ
+success = 91.03% (4588/5040)
+* -&gt; 91.03 %
+∟ T -&gt; 95.00 %
+∟ I -&gt; 98.33 %
+∟ L -&gt; 82.78 %
+∟ J -&gt; 82.78 %
+∟ S -&gt; 93.33 %
+∟ Z -&gt; 92.78 %
+∟ O -&gt; 92.22 %
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id4">
+<h3>パターンE\'：パフェ重視<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="field-images docutils container">
+<a class="reference internal" href="../_images/fig_00111.png"><img alt="e2p_fig01" src="../_images/fig_00111.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00211.png"><img alt="e2p_fig02" src="../_images/fig_00211.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00311.png"><img alt="e2p_fig03" src="../_images/fig_00311.png" style="width: 171.0px; height: 69.0px;" /></a>
+<a class="reference internal" href="../_images/fig_00411.png"><img alt="e2p_fig04" src="../_images/fig_00411.png" style="width: 171.0px; height: 69.0px;" /></a></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>パターンE\'のパフェ重視の地形で、IOSZの4ミノ開幕で最高パフェ率を保持できる地形です。</p>
+<p>パフェパターンもそれほど多くありません。</p>
+<p>横に凸があるので、パフェ以外には展開が少ししにくいです。</p>
+<p><a href="http://fumen.zui.jp/?v115@9gwhIewhCeAtEewhRpBtR4CewhRpAtR4NeAgHLhgWF?eQpQahWFeRpglPeAAA9gQaHewhQaCegWQ4CewhQagHgWhlB?eRpwhQaiHxSQ4RpwhJeAAAMhQaIeRaQpQaGeQLRaKeAAA" target="_blank">
+    セットアップ：テト譜
+</a></p>
+<p><a href="http://fumen.zui.jp/?v115@9gA8IeA8CeA8EeG8CeF8NeAgWYAlfT6BY0DfEToXOB?lvs2AUDEfETo/AC+gg0zhEei0CeBtHewwBtFeywKeAAtSB0?n88AwXHDBQOHSASoDfET4BBClvs2AUuDfETYmzBlvs2AW0D?fETYN6BFbcRA1gJ+B2XnQBBYGPCJoo2Alvs2A2yDfEXElwB?lPhzB5xAAA+gwSglyhEexSAPCeBPHeQLBPFeSLKeAAtEBlv?s2AVGEfETY+2Bl/m9BFwDfE112KBlvs2AWJ88AwX3JBEYqR?A1zC+BGHcSASoDfET4ZOBlv1RBCCEfEVDRwBneF8CewhE8C?eAtwhG8BtwhF8AeAtAewhJeF8DeE8EeG8ywF8BewwKeF8De?E8EeG8i0F8Ceg0Kexwi0CewhAexwg0CeQ4AewhGeR4whHeQ?4whJeAAtbBlfjzBypDfET4p9BlPBBCWrDfET4ZOByXHDBwH?xRA1d8vB0XHDBQpjRA1Dq9BFYHDBwFhRAViRSB4XHDBwvwR?A1d0KBFYHDBQOHSA1QEBCBYPNBXLPBAneFACeQaEACeAPQa?GABPQaFAAeAPAeQaJeFADeEAEeGASLFABeQLKeFADeEAEeG?AiHFACegHReAtwwGewSAtwwGewSQawwFexhgHKeAAtwAlvs?2AVGEfETY+2Bl/m9BFwDfE112KBlvs2AWJEfETo3ABlvs2A?2HEfEVZi9A" target="_blank">
+     消しかた：テト譜
+</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>java -jar sfinder.jar percent -fc 0 -td 1 -t v115@/gA8IeB8FeF8DeG8MeAgH -p *!
+
+# パフェ成功率  # 右端あけ
+success = 93.97% (4736/5040)
+* -&gt; 93.97 %
+∟ T -&gt; 100.00 %
+∟ I -&gt; 98.89 %
+∟ L -&gt; 93.06 %
+∟ J -&gt; 96.67 %
+∟ S -&gt; 89.44 %
+∟ Z -&gt; 86.67 %
+∟ O -&gt; 93.06 %
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../blogs/index.html" class="btn btn-neutral float-right" title="記事" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="second_with_t.html" class="btn btn-neutral" title="パフェ2回目：Tあり" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, newjade.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

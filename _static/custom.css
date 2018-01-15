@@ -1,0 +1,8 @@
+.strike {
+  text-decoration: line-through;
+}
+
+.field-images img {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
