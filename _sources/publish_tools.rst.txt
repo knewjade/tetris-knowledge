@@ -14,6 +14,16 @@ github: https://github.com/knewjade/solution-finder
 マニュアル: https://s3-ap-northeast-1.amazonaws.com/sfinder/index.html
 
 
+Fumen for mobile (beta)
+===========================================
+
+スマホでテト譜をみるためのページ。
+
+将来的には書き込みもしたい。
+
+https://knewjade.github.io/fumen-for-mobile/
+
+
 mobliss (beta)
 ===========================================
 
