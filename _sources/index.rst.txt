@@ -20,6 +20,7 @@ Welcome
    publish_tools
    publish_links
    publish_docs
+   publish_pc
    2pcsystem/index
    blogs/index
    contact
