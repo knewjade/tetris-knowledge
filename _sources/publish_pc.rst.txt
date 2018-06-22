@@ -10,17 +10,17 @@
 7ミノ
 ----------
 
-* `地形：7ミノ <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/7mino_all.html>`_
+* `地形：7ミノ <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/7mino_all.html>`__
 
 
 6ミノ
 ----------
 
-* `地形：Iホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutI.html>`_
-* `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutT.html>`_
-* `地形：Oホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutO.html>`_
-* `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutS.html>`_
-* `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutL.html>`_
+* `地形：Iホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutI.html>`__
+* `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutT.html>`__
+* `地形：Oホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutO.html>`__
+* `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutS.html>`__
+* `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/6mino_withoutL.html>`__
 
 
 パフェ2回目4ミノ全地形 / パフェ成功率順
@@ -41,16 +41,18 @@ https://docs.google.com/spreadsheets/d/1k1PAuLoRFYLGmcMoauFY-Tb7HKjWySAy7KmhrNwN
 4ラインパフェ→2ラインパフェ（パフェ6回目）5ミノ全地形 / パフェ成功率順
 ======================================================================================
 
+1回目をSZTでパフェしたあと、2回目をLJIO + Oでした後の地形で、パフェ成功確率が高い地形です。
+
 6ミノ
 ----------
 
-* `地形：6ミノ <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TILJSZ.html>`_
+* `地形：6ミノ <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TILJSZ.html>`__
 
 
 5ミノ
 ----------
 
-* `地形：Iホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TLJSZ.html>`_
-* `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/ILJSZ.html>`_
-* `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TILJZ.html>`_
-* `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TIJSZ.html>`_
+* `地形：Iホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TLJSZ.html>`__
+* `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/ILJSZ.html>`__
+* `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TILJZ.html>`__
+* `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TIJSZ.html>`__
