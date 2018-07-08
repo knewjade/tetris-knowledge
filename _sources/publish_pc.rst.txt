@@ -66,3 +66,11 @@ https://docs.google.com/spreadsheets/d/1k1PAuLoRFYLGmcMoauFY-Tb7HKjWySAy7KmhrNwN
 * `地形：Tホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/ILJSZ.html>`__
 * `地形：Sホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TILJZ.html>`__
 * `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TIJSZ.html>`__
+
+
+パフェ3回目全地形 / パフェ成功率順
+===========================================
+
+連続パフェの3回目についてまとめたスプレッドシート。
+
+https://docs.google.com/spreadsheets/d/1OfHnvI7CFwWrV2XBMWxFdsrxmuvTyYgX1qNa9yy-qyw/
