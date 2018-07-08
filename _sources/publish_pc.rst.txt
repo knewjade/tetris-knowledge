@@ -67,7 +67,6 @@ https://docs.google.com/spreadsheets/d/1k1PAuLoRFYLGmcMoauFY-Tb7HKjWySAy7KmhrNwN
 * `地形：Lホールド <https://s3-ap-northeast-1.amazonaws.com/sfinder/store/cycle6/useO/TIJSZ.html>`__
 
 
-
 パフェ3回目全地形：7ミノ / パフェ成功率順
 ===================================================================
 
@@ -125,3 +124,46 @@ https://docs.google.com/spreadsheets/d/1k1PAuLoRFYLGmcMoauFY-Tb7HKjWySAy7KmhrNwN
 * `地形：Zホールド <./_static/cycle3/7mino/L-noZ.html>`__
 * `地形：Lホールド <./_static/cycle3/7mino/L-noL.html>`__
 * `地形：Jホールド <./_static/cycle3/7mino/L-noJ.html>`__
+
+
+パフェ3回目全地形：4ミノ / パフェ成功率順
+===================================================================
+
+2回目Sホールド
+-----------------------------
+
+* `地形：IJO <./_static/cycle3/4mino/S/SIJO.html>`__
+* `地形：IJS <./_static/cycle3/4mino/S/SIJS.html>`__
+* `地形：IJZ <./_static/cycle3/4mino/S/SIJZ.html>`__
+* `地形：ILJ <./_static/cycle3/4mino/S/SILJ.html>`__
+* `地形：ILO <./_static/cycle3/4mino/S/SILO.html>`__
+* `地形：ILS <./_static/cycle3/4mino/S/SILS.html>`__
+* `地形：ILZ <./_static/cycle3/4mino/S/SILZ.html>`__
+* `地形：ISO <./_static/cycle3/4mino/S/SISO.html>`__
+* `地形：ISZ <./_static/cycle3/4mino/S/SISZ.html>`__
+* `地形：IZO <./_static/cycle3/4mino/S/SIZO.html>`__
+* `地形：JSO <./_static/cycle3/4mino/S/SJSO.html>`__
+* `地形：JSZ <./_static/cycle3/4mino/S/SJSZ.html>`__
+* `地形：JZO <./_static/cycle3/4mino/S/SJZO.html>`__
+* `地形：LJO <./_static/cycle3/4mino/S/SLJO.html>`__
+* `地形：LJS <./_static/cycle3/4mino/S/SLJS.html>`__
+* `地形：LJZ <./_static/cycle3/4mino/S/SLJZ.html>`__
+* `地形：LSO <./_static/cycle3/4mino/S/SLSO.html>`__
+* `地形：LSZ <./_static/cycle3/4mino/S/SLSZ.html>`__
+* `地形：LZO <./_static/cycle3/4mino/S/SLZO.html>`__
+* `地形：SZO <./_static/cycle3/4mino/S/SSZO.html>`__
+* `地形：TIJ <./_static/cycle3/4mino/S/STIJ.html>`__
+* `地形：TIL <./_static/cycle3/4mino/S/STIL.html>`__
+* `地形：TIO <./_static/cycle3/4mino/S/STIO.html>`__
+* `地形：TIS <./_static/cycle3/4mino/S/STIS.html>`__
+* `地形：TIZ <./_static/cycle3/4mino/S/STIZ.html>`__
+* `地形：TJO <./_static/cycle3/4mino/S/STJO.html>`__
+* `地形：TJS <./_static/cycle3/4mino/S/STJS.html>`__
+* `地形：TJZ <./_static/cycle3/4mino/S/STJZ.html>`__
+* `地形：TLJ <./_static/cycle3/4mino/S/STLJ.html>`__
+* `地形：TLO <./_static/cycle3/4mino/S/STLO.html>`__
+* `地形：TLS <./_static/cycle3/4mino/S/STLS.html>`__
+* `地形：TLZ <./_static/cycle3/4mino/S/STLZ.html>`__
+* `地形：TSO <./_static/cycle3/4mino/S/STSO.html>`__
+* `地形：TSZ <./_static/cycle3/4mino/S/STSZ.html>`__
+* `地形：TZO <./_static/cycle3/4mino/S/STZO.html>`__
