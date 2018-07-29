@@ -7,10 +7,3 @@
 * twitter @1millim
 
   - https://twitter.com/1millim
-
-
-.. note::
-
-  Amazonのほしい物リストを公開しています。
-  ここから何か送っていただけるととても喜びます。
-  https://www.amazon.co.jp/gp/registry/wishlist/G76CDS8VJEYV/ref=nav_wishlist_lists_2?sort=priority
