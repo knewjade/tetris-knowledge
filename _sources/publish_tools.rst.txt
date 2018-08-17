@@ -24,6 +24,18 @@ Fumen for mobile (beta)
 https://knewjade.github.io/fumen-for-mobile/
 
 
+Fumen Preview (for Chrome Extension)
+===========================================
+
+テト譜のリンクを直接確認することができるようになるChrome拡張機能。
+
+solution-finderの出力ファイルとの相性がとても良いので、併用をオススメします。
+
+テト譜が短縮URLになっていても開くことができます（設定でオフにもできます）。
+
+https://chrome.google.com/webstore/detail/fumen-preview/kkmandajpdmjfibomfokgdjcgmbkipef
+
+
 mobliss (beta)
 ===========================================
 
