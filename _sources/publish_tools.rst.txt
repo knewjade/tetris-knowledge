@@ -14,12 +14,17 @@ github: https://github.com/knewjade/solution-finder
 マニュアル: https://s3-ap-northeast-1.amazonaws.com/sfinder/index.html
 
 
-Fumen for mobile (beta)
+Fumen for mobile
 ===========================================
 
-スマホでテト譜をみるためのページ。
+スマホでテト譜を確認したり、つくったりするためのページ。通称：テト譜モバイル
 
-将来的には書き込みもしたい。
+主な機能：
+
+* [連続テト譜エディタ(公式)](http://fumen.zui.jp/)で作成したテト譜を開く
+* ミノの書き込み・操作ができる
+* テト譜モバイル・公式・HarddropのURLに出力できる。tinyurlによる短縮もできる
+* Undo・Redoやページのコピー・削除ができる
 
 https://knewjade.github.io/fumen-for-mobile/
 
