@@ -35,6 +35,8 @@ Youtube: https://www.youtube.com/watch?v=m_J7W_FaWhE
 Zetris PC Finder / (mat1jaczyyyさんへの協力)
 ===================================================================
 
+Zetris公式サイト: https://mat1jaczyyy.com/zetris 
+
 ぷよぷよテトリスAI Zetrisのパフェ探索部分で協力しました。
 その動きがわかりやすいのは以下の動画です。
 
