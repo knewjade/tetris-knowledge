@@ -200,6 +200,7 @@ T と [SZ] のおく場所を固定するパターンです。
 |
 
 T と O のおく場所を固定するパターンです。
+TIOL or TIOJの場合は、2パターンで100%パフェを狙える形があるため、余裕があれば補足をご参照ください。
 
 |b_setup|
 
@@ -267,7 +268,7 @@ T と O のおく場所を固定するパターンです。
 
 |
 
-2つのパフェパターンを T と [SZ] のどちらが早いかによって使い分けるだけで、必ずパフェできるパターンです。
+2つのパフェパターンを T か [SZ] のどちらが早いかによって使い分けるだけで、必ずパフェできるパターンです。
 
 |c_setup|
 
@@ -334,7 +335,7 @@ ITSZ
 
 |
 
-2つのパフェパターンを O と [LJ] のどちらが早いかによって使い分けるだけで、必ずパフェできるパターンです。
+2つのパフェパターンを O か [LJ] のどちらが早いかによって使い分けるだけで、必ずパフェできるパターンです。
 
 |itsz_setup|
 
@@ -430,3 +431,65 @@ OTSZ
   ∟ S -> 100.00 %
   ∟ Z -> 100.00 %
   ∟ O -> 99.58 %
+
+----
+
+TIOL (100%)
+---------------------
+
+.. |tiol_fig01| image:: img/tiol/fig_001.png
+   :scale: 50
+.. |tiolfig02| image:: img/tiol/fig_002.png
+   :scale: 50
+.. |tiolfig03| image:: img/tiol/fig_003.png
+   :scale: 50
+.. |tiolfig04| image:: img/tiol/fig_004.png
+   :scale: 50
+.. |tiolfig05| image:: img/tiol/fig_005.png
+   :scale: 50
+.. |tiolfig06| image:: img/tiol/fig_006.png
+   :scale: 50
+
+.. |tiol_setup| raw:: html
+
+   <a href="http://fumen.zui.jp/?v115@Jhg0GeRpi0BewwBeRpzhywKeAgHJhAPIeAPhWGexhR?pNeAgWAARhRaHehWRaPeAgWAAJhgWDeglBehWQpBPhlwSRp?QaCtxSBPgWQpJeAgWAAOhAtGexwAtFeh0xwLeAgWAAOhgHA?eglGeAPRaFeRLhWJeAgWAA" target="_blank">
+      セットアップ：テト譜
+   </a>
+
+.. |otsz_solution| raw:: html
+
+   <a href="http://fumen.zui.jp/?v115@JhA8GeE8BeA8BeI8KeAg0YAlfT6BY0DfEToXOBlvs2?AUDEfETo/AC9gRpBtywhlwhRpAeBtwwR4glwhEeR4Aeglwh?IewhJeAAtEBTYHDBQxLSA1dMOBCYHDBQ+pRA1dEEBjeEfET?Y2RBlvs2A4BEfET4BBClvs2AYuDfETYNEBlvs2AW0DfETYN?6BBhxSwhAtQpFewSQagWQpFeQLQaAeQpUeAAPEBUYHDBQxL?SA1dMOBCYHDBQ+pRA1dEEBDdEfETY2RBlvs2A4BEfET4BBC?lvs2AYuDfETYNEBlvs2AW0DfETYN6B" target="_blank">
+      消しかた：テト譜
+   </a>
+
+.. container:: field_images
+
+  |tiol_fig01|
+  |tiol_fig02|
+  |tiol_fig03|
+  |tiol_fig04|
+  |tiol_fig05|
+  |tiol_fig06|
+
+|
+
+2つのパフェパターンを T か [SZ] のどちらが早いかによって使い分けるだけで、必ずパフェできるパターンです。
+
+|tiol_setup|
+
+|tiol_solution|
+
+::
+
+  java -jar sfinder.jar percent -fc 0 -td 1 -t v115@JhA8GeE8BeA8BeI8KeAgl -p *!
+
+  # パフェ成功率
+  success = 100.00% (5040/5040)
+  * -> 100.00 %
+  ∟ T -> 100.00 %
+  ∟ I -> 100.00 %
+  ∟ L -> 100.00 %
+  ∟ J -> 100.00 %
+  ∟ S -> 100.00 %
+  ∟ Z -> 100.00 %
+  ∟ O -> 100.00 %
