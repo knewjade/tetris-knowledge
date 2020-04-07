@@ -456,7 +456,7 @@ TIOL (100%)
       セットアップ：テト譜
    </a>
 
-.. |otsz_solution| raw:: html
+.. |tiol_solution| raw:: html
 
    <a href="http://fumen.zui.jp/?v115@JhA8GeE8BeA8BeI8KeAg0YAlfT6BY0DfEToXOBlvs2?AUDEfETo/AC9gRpBtywhlwhRpAeBtwwR4glwhEeR4Aeglwh?IewhJeAAtEBTYHDBQxLSA1dMOBCYHDBQ+pRA1dEEBjeEfET?Y2RBlvs2A4BEfET4BBClvs2AYuDfETYNEBlvs2AW0DfETYN?6BBhxSwhAtQpFewSQagWQpFeQLQaAeQpUeAAPEBUYHDBQxL?SA1dMOBCYHDBQ+pRA1dEEBDdEfETY2RBlvs2A4BEfET4BBC?lvs2AYuDfETYNEBlvs2AW0DfETYN6B" target="_blank">
       消しかた：テト譜
