@@ -439,15 +439,15 @@ TIOL (100%)
 
 .. |tiol_fig01| image:: img/tiol/fig_001.png
    :scale: 50
-.. |tiolfig02| image:: img/tiol/fig_002.png
+.. |tiol_fig02| image:: img/tiol/fig_002.png
    :scale: 50
-.. |tiolfig03| image:: img/tiol/fig_003.png
+.. |tiol_fig03| image:: img/tiol/fig_003.png
    :scale: 50
-.. |tiolfig04| image:: img/tiol/fig_004.png
+.. |tiol_fig04| image:: img/tiol/fig_004.png
    :scale: 50
-.. |tiolfig05| image:: img/tiol/fig_005.png
+.. |tiol_fig05| image:: img/tiol/fig_005.png
    :scale: 50
-.. |tiolfig06| image:: img/tiol/fig_006.png
+.. |tiol_fig06| image:: img/tiol/fig_006.png
    :scale: 50
 
 .. |tiol_setup| raw:: html
