@@ -452,7 +452,7 @@ TIOL (100%)
 
 .. |tiol_setup| raw:: html
 
-   <a href="http://fumen.zui.jp/?v115@Jhg0GeRpi0BewwBeRpzhywKeAgHJhAPIeAPhWGexhR?pNeAgWAARhRaHehWRaPeAgWAAJhgWDeglBehWQpBPhlwSRp?QaCtxSBPgWQpJeAgWAAOhAtGexwAtFeh0xwLeAgWAAOhgHA?eglGeAPRaFeRLhWJeAgWAA" target="_blank">
+   <a href="http://fumen.zui.jp/?v115@Jhg0GeRpi0BewwBeRpzhywKeAgHJhAPIeAPhWGexhR?pNeAAARhRaHehWRaPeAAAJhgWDeglBehWQpBPhlwSRpQaCt?xSBPgWQpJeAAAOhAtGexwAtFeh0xwLeAAAZhRpFeRLhWJeA?AA" target="_blank">
       セットアップ：テト譜
    </a>
 
