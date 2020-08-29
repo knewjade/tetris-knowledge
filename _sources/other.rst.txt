@@ -20,10 +20,10 @@ https://gist.github.com/knewjade/79b6bac0b03bc059ee1b0ab1bd4d7c3a
 https://gist.github.com/knewjade/0a44ae8178526746477e5830bd38107c
 
 
-ぷよぷよテトリス 40ライン 19.96秒 / (mat1jaczyyyさんへの協力)
+ぷよぷよテトリス 40ライン 19.71秒 / (mat1jaczyyyさんへの協力)
 ===================================================================
 
-Youtube: https://www.youtube.com/watch?v=m_J7W_FaWhE
+https://youtu.be/m0fYDnwZOf8
 
 11ミノを使って、4ラインのテトリスパフェできるミノの組み合わせをみつける部分で協力しました。
 
