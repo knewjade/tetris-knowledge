@@ -24,4 +24,5 @@ Welcome
    other
    2pcsystem/index
    opening_tspins
+   opening_tss_tst
    contact
