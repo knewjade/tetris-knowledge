@@ -11,7 +11,7 @@ solution-finder
 
 github: https://github.com/knewjade/solution-finder
 
-マニュアル: https://s3-ap-northeast-1.amazonaws.com/sfinder/index.html
+マニュアル: https://knewjade.github.io/sfinder-docs
 
 
 Fumen for mobile
