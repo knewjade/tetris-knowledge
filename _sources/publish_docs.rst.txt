@@ -18,16 +18,14 @@ Perfect Clear Data / Google drive
 https://drive.google.com/drive/folders/0B00KkBO1iqy2a2dLSVNpaDhiN0E
 
 
-テト譜v115の仕様（フィールドのみ）
+テト譜v115のデータ構造
 ===========================================
 
-テト譜のデータ (``v115@vhAAgH`` とか) へのエンコード・デコードの仕様をまとめたスライド。
+テト譜のデータ (``v115@vhAAgH`` とか) の仕様をまとめたスライドです。
 
-現在のところ、v115のフィールド部分の仕様だけ書いてます。
+オリジナルである `連続テト譜エディタ <https://fumen.zui.jp/>`_ の仕様をもとに説明しています。
 
-つづきの要望があればご連絡ください。
-
-https://docs.google.com/presentation/d/1V4PNyt41to81phK9u0iXnIkAfp-nV3g3xcl7c5qW-FI/
+https://docs.google.com/presentation/d/1P5xt0vPGuxSb9hbRW6hvQFYKFoIccfNTJkWTdjtyigc
 
 
 パフェ2回目（4ミノ編）
