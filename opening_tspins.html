@@ -1,45 +1,27 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="ja" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>&lt;no title&gt; &mdash; knewjade-tetris-knowledge 1.0 ドキュメント</title>
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>開幕Tスピン &mdash; knewjade-tetris-knowledge 1.0 ドキュメント</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
-  
-  
-  
-
-  
-
-  
-  
-    
-
-  
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-
-  
-        <link rel="index" title="索引"
-              href="genindex.html"/>
-        <link rel="search" title="検索" href="search.html"/>
-    <link rel="top" title="knewjade-tetris-knowledge 1.0 ドキュメント" href="index.html"/>
-        <link rel="next" title="開幕TSS-&gt;TST" href="opening_tss_tst.html"/>
-        <link rel="prev" title="パフェ2回目：Tなし" href="2pcsystem/second_without_t.html"/>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="next" title="開幕TSS-&gt;TST" href="opening_tss_tst.html" />
+    <link rel="prev" title="パフェ2回目：Tなし" href="2pcsystem/second_without_t.html" />
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93540402-2"></script>
 <script>
@@ -50,33 +32,15 @@
   gtag('config', 'UA-93540402-2');
 </script>
 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
 </head>
 
-<body class="wy-body-for-nav" role="document">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          
-
-          
+        <div class="wy-side-nav-search" >
             <a href="index.html" class="icon icon-home"> knewjade-tetris-knowledge
-          
-
-          
           </a>
-
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -84,18 +48,8 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <ul>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="publish_tools.html">つくったツール</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="publish_tools.html#solution-finder">solution-finder</a></li>
 <li class="toctree-l2"><a class="reference internal" href="publish_tools.html#fumen-for-mobile">Fumen for mobile</a></li>
@@ -191,6 +145,23 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">開幕Tスピン</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">概要</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">前提条件</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#t-spin-mini">T-Spin Miniの条件</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">解の総数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">ミノの数 ごと</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#t-spin">T-Spinの種類 ごと</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">フィールドの高さ ごと</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Tミノの回転方向 ごと</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tx-0">Tミノの回転軸のx座標 ごと (0=一番左の列)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ty-0">Tミノの回転軸のy座標 ごと (0=一番下の段)</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="opening_tss_tst.html">開幕TSS-&gt;TST</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="opening_tss_tst.html#id1">概要</a></li>
 <li class="toctree-l2"><a class="reference internal" href="opening_tss_tst.html#id2">補足</a></li>
@@ -204,139 +175,428 @@
 </li>
 </ul>
 
-            
-          
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">knewjade-tetris-knowledge</a>
-        
       </nav>
 
-
-      
       <div class="wy-nav-content">
         <div class="rst-content">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="index.html">Docs</a> &raquo;</li>
-        
-      <li>&lt;no title&gt;</li>
-    
-    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>開幕Tスピン</li>
       <li class="wy-breadcrumbs-aside">
-        
-            
             <a href="_sources/opening_tspins.rst.txt" rel="nofollow"> View page source</a>
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  
+             
+  <section id="t">
+<h1>開幕Tスピン<a class="headerlink" href="#t" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<section id="id1">
+<h2>概要<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>開幕7ミノ (IOLJSZ + T) で組むことができるTスピンをすべて列挙する。
+なお、回転規則はSRSに準拠する。</p>
+</section>
+<section id="id2">
+<h2>前提条件<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>1: Tミノを除いてもライン消去が発生する解は含まない</p>
+<p>例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;RhRpi0ilR4RpBeg0glAeR4KeAgHDhwhIewhDeBtCew?hEeBtBewhMeAgHvhA9NYeAl/PVBFtDfET4ZOBlvs2AWJEfE?T4JwBlvs2AUeAAADhglFeg0BewhBtBeR4g0RpwhglAtQaQ4?Qpglg0RpAewhBPJeAgWAAvhANpQeAl/PVBFtDfET4ZOBlvs?2AWJEfET4JwBlvs2AUeAAA">テト譜</a></p>
+<p>2: すべてのミノの中に、Tスピンに影響を与えないミノが含まれているものは解としない。
+具体的には、以下の条件を満たすミノがひとつでも含まれる場合は解としない。</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>あるミノを取り除いても、消去されるライン数が変化しない</p></li>
+<li><p>あるミノを取り除いても、Tスピンができる</p></li>
+<li><p>あるミノを取り除いても、すべてのミノが接着したままである（空中に浮かない）</p></li>
+</ul>
+</div></blockquote>
+<p>例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;Whg0AeBtBezhi0BtJeNJYYAl/PVBFtDfET4ZOBlvs2?AUrDfETYmzBKhRpEeQLBeRpg0AeBtAeQLAPyhAeg0glAeAt?JeNJY3Al/PVBFtDfET4ZOBlvs2AWJEfET4JwBlvs2AUuTAB?Coo2APYHDBQOHSAVvT3AEY/TBZ0mAAChg0AeBtBezhi0BtQ?LBewSAeQpDeRLAewSAewSAeBPKeN/XYAl/PVBFtDfET4ZOB?lvs2AUrDfETYmzB9gQLIewSQLAeBtgHAeBPAeglCexhAeg0?BehlAewhhWwhi0JeFKJHhglBeBtCeRpCeAPAeAtAeg0RpAe?wSQLAPxSwhAeh0JeFKY3Al/PVBFtDfET4ZOBlvs2AWJEfET?4JwBlvs2AUuTABCoo2APYHDBQOHSAVvT3AEY/TBZ0mAAChQ?4DeglBeBtR4AeRpCeAPAeAtQ4g0CewSQLAPxSwhAeRpJeFK?Y5Al/PVBFtDfET4ZOBlvs2AUrDfETYmzBl8ESASY9tCEYHD?BQhuRA1d0KBGY3JBSrnRAV1w9BTAAAA">テト譜</a></p>
+<p>3: Tミノを含めたすべてのミノの位置が同じになるとき、同一解とする。
+つまり、ある地形内で複数種のTスピンができる場合でも、ひとつの解とする。</p>
+<p>例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;tgilGeglEezhR4Aei0CeR4Deg0DeBtBeRpEeBtAeRp?Je19XBARAAAAwgQLHeSLyeNHYUARl78AQemsCwOpTASIL4D?urkrDtgilHehWCezhwwQ4Aei0FeRLHeQLWeVH2BASAAAAvh?ANHYbASl78AQemsCwOpTASIL4DurkrDFbcYCJGmCAtgilHe?hWCezhwwQ4Aei0FeRLHeQLWeFH2BATAAAAvhANHYbATl78A?QemsCwOpTASIL4DurkrDFbcYCJGmCAtgilHehWCezhwwQ4A?ei0FeRLHeQLWelH2BAUAAAAvhANHYbAUl78AQemsCwOpTAS?IL4DurkrDFbcYCJGmCA">テト譜</a></p>
+<p>4: ミノの組み合わせが同一的な部分があっても、最終的に消去されるライン数が異なる場合は、それぞれ別の解とする</p>
+<p>5: Tミノを置くことができない地形は解としない</p>
+<p>例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;Bhh0AeQ4CeBtAeg0BeR4AeRpBtg0CeQ4glRpzhAeil?JeFMYDBUYHDBwFhRA1w2KB1XHDBQUHSA1dkRBCYHDBwPjRA?1d0KB4XHDBQOHSA1d0KB3XHDBQeJSA1d0KBBYHDBQetAA">テト譜</a></p>
+<section id="t-spin-mini">
+<h3>T-Spin Miniの条件<a class="headerlink" href="#t-spin-mini" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>T-Spin Miniの判定はゲームタイトルによって異なるが、今回は「以下の条件をすべて満たすとき」をMiniと判定する。</p>
+<ol class="arabic simple">
+<li><p>Tの4隅のうち、3ブロック以上埋まっている 例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;KhA8AeA8GeywGeA8wwA8NeAgWmAUYHDBQxzEBlPKLB?4vDfET4p9Blvs2AUxDfET4J6Alvs2AwZAAAvhAAgWJBzXHD?BQhlRAVvL+B1XfGBloCSA1Q82BCYHDBwyLSA1d0KBzXHDBQ?BqRA1dEEB0XHDBQEFSA1d0KB4XHDBQexwCtMN5DOBAAAKhw?DAeAADeC8CeG8wDAewDD8JeAgWPAUEzPEJG98AQmqhECDdC?AbhC8Q4D8whKe9NYWAUEzPEJG98Awc1JEHDVTASo9LCuuBA?A2gB8HeA8FeC8whAewhH8BeC8QpC8whAewhB8RpJeNLYPAU?EzPEJG98AQuR5DQDdCA">テト譜</a></p></li>
+<li><p>Tの凸側の隅がどちらか埋まっていない 例: <a class="reference external" href="https://fumen.zui.jp/?v115&#64;HhC8GeB8CeG8whAewhE8JelKYeAUEzPEJGFfET4p9B?lvs2AUxDfET4J6Alvs2AwZAAAHhC8GeB8CeE8BewDAewhE8?JelqQ3BUYHDBQxLSA1w2AC4X3JBwilRAVaW3A4XPNBDdlRA?VFROByXPDCmowRA1dEEBDY3JB3UFSA1dMOBFYHDBQEFSA1d?0KB4XHDBQoeYCJGeTA1d0KBCYHDBQBOSA1d0KBBYHDBQ0wR?A1d0KBBYHDBQetAAHhB8whGeB8CeE8DeF8Je1qQlBUYHDBQ?xLSA1w2AC4X3JBwilRAVaW3A4XPNBDdlRAVFROByXPDCmow?RA1dEEBDY3JB3UFSA1dMOBFYHDBQRjRA1d0KB2XHDBQelRA?1d0KBBYHDBQelRA1d0KB4T1JEJBAAA">テト譜</a></p></li>
+<li><p>通常のTSTと同じ回転入れではない (Tの凸が左右を向いている and SRSのテストパターンが最後ではない) 例: <a class="reference external" href="http://fumen.zui.jp/?v115&#64;YhglRpAezhilRpJe1JnvhANJYEANOJ5DIhg0HeQLg0?GeglxhAezhAeRaJe1K2AAvhANKYEANOJ5DtgilGeglEezhR?4Aei0CeR4Deg0AegHQLAeBtBeRpAegHRLAeBtAeQpwhJelH?2AAvhANHYEANOJ5D3gBtgWGeAtHewDQaAeRaAegHBeglQpQ?aAPQLAtwhwSilRpAPwSwhhWJeVC2AAvhAtLYlAU9rSATD88?AwT1JEpYHDBQRsRA1d0KBGYHDBQxCSA1dEEBUAAAA">テト譜</a></p></li>
+</ol>
+</section>
+</section>
+<section id="id3">
+<h2>解の総数<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>503634 (内 T-Spin Double は 272)</p>
+<p><a class="reference external" href="https://punsyuko.com/fumen/#v115&#64;HhglBeBtAeQ4CeglywBtR4RphlwwzhQ4RpJeAgHAhQ?4FeglBeR4EeglywQ4i0RpAeglwwxSwhgHg0RpJeAAA/gAtH?eBtFeglg0AtwwgWwwR4ilAth0gWAeQ4zhJeAAA/gAtHeBtD?eglBeg0AtwhxwilRpg0hlwwzhQpwhJeAAAChQ4Deg0DeR4C?eh0glywQ4glRpwhxSwhwwhlAeRpJeAAAChQ4DeglDeR4Ceg?lBtxwgWQ4i0APglBtwwhHxhg0JeAAAJhglBeBtAeQ4AeRpg?lxwgWBtR4whQphlwwhHxhQ4JeAAAChQ4FeglBeR4CeRpgly?wQ4i0RpAeglwwxSwhgHg0JeAAAIhAtAeR4Beg0BeBtR4wwg?Wwwg0RpAtwhQaxhgWQag0RpJeAAABhAtHeBtDeg0ilAtywR?4g0glwSwhhHwwQ4whh0JeAAABhAtHeBtBeg0BeilAtwhxwg?0RpglxhxSwwh0QpwSJeAAABhAtHeBtDeglRpg0AtwhxwilR?pg0hlwwwhQLxhJeAAAEhQ4Beg0FeR4Aei0AtAeywQ4glyhw?SAeAtwwhlKeAAAEhQ4Deg0DeR4AeRpi0xwgWQ4glwSQpzhw?wRLglJeAAADhAtHeBtBeg0RpilAtwwgWwwg0RpAPzhgWQag?0JeAAAKhAtAeR4Beg0RpBtR4whxwg0RpAtxhxSwwg0KeAAA?AhRpBeAtBeglBeRpAeBtBeglywR4Ati0hlwwQpQ4hHxhKeA?AAAhRpg0DeglBeRpg0BeQ4AeglxwglQpg0AtAeR4Aeglwwh?WwhwSAeAtQ4JeAAAAhQ4FeglBeR4RpAeAtg0glxwglAtwSQ?pBtg0AeglwwhWQLwhAtQag0JeAAAChQ4DeglBeBtR4h0Aeg?lxwgWBtQ4g0RpAeglwwhHhWg0QawSJeAAAzgQ4IeR4CeAtD?eglQ4BeBtDeglywAtQah0RpAeglwwxShHAewSQpJeAAAChQ?4DeQLBeBtR4AeRpQLgWxwAtAeQ4g0RpAeQLwwwhxSwhi0Je?AAAAhQ4FeglBeR4RpBtAeglywQ4APQpg0BtAeglwwxShHg0?RpJeAAA/gAtEehlAeBtDeRpglg0AtwwgWwwR4RpglAth0gW?AeAtgWxSwhJeAAA/gAtCehlCeBtDeglRpg0AtwhxwR4glxh?g0hlwwR4whhWQaJeAAA9gQ4EehlBeR4BeBtAeglBeg0Q4wh?xwAtglAeRpg0hlwwyhQaLeAAA9gQ4IeR4BeBtAeilQaQ4yw?AtglAeRpRag0wwxSwhQaRpJeAAA/gAtBeglQ4DeBtBeglR4?BeQaAtywhlQ4RpRag0wwxSwhQaxhJeAAA9ghlDeQ4DeglBe?BtR4Beg0glwhxwglwSQ4Rpg0hlwwwhQahHRpJeAAA/gAtHe?BtBeRpQ4hlAtglywQpAPR4glg0Atg0wwxShHQ4glJeAAAAh?AtFeRpBtBei0AeRpAeywR4g0glwhxSwhwwBtQLLeAAAAhAt?Deh0RpBtDeg0AeRpAtwhxwR4g0glhWxSwwQ4whBPglJeAAA?ChRpBeAtg0DeRpAeBti0whxwR4gWAPhWxSwwR4glAPglJeA?AA/gRpEeAtg0AeRpDeBti0xwglAtQ4AtgWQLyhwwBtglhWJ?eAAA+gAtHeBtR4Beg0AehlAtQ4Atglxwg0RpgWQLwhhWwwh?0QpQagWJeAAA+gAtHeBtR4Beg0RpAeAtQpQ4ywg0RpglxSh?Hwwg0AeglLeAAAAhAtFeRpBtBeg0AeR4QpQaAtywg0R4glx?ShHwwg0AeRaglJeAAAAhAtFeRpBtBeg0glQ4AeRpAtwhxwg?0glR4hWxSwwg0AeglQLKeAAA+gAtDeh0BeBtR4Beg0CeAtR?4whxwg0glRphWxSwwglAPAeAPQpJeAAA+gAtg0BeQ4DeBtg?0BeR4CeAtglg0ywwhAPRpxShHwwglAPglRpJeAAA9gh0EeA?tBeg0AeR4BeBtBeg0QpwhxwgWAtglRpxSQLwhwwRLglRpJe?AAAChRpBewhglDeRpAeg0whAPgWAtywQ4Qpg0whAPglxSww?Q4Qpglg0whJeAAA/gRpEewhglAeRpDeg0whglBtxwglAtQ4?g0BeglBtwwBtg0LeAAA+gg0Hegli0BeRpQ4AeglAtwhglxw?RpQ4g0AeglxhwwyhQLg0JeAAA2gg0Ieg0FeglAeh0BeRpQ4?AeglgWAtywRpR4AeAPhWwwwhhWgHQ4JeAAAChRpg0BeglBe?gHAeRpg0Q4AeglBtQaxwh0R4AeglhWwwwhhWgHQ4JeAAA/g?RpCeg0BeglAeRpCeg0Q4AeglBtxwglQpAeR4AeglBtwwhWQ?LgHQ4JeAAA1gQ4IeR4CeAtDeglQ4BeBtBeRpQaglxwAtAeh?0whQpRawwxhQLgHg0JeAAADhQ4CeBtwDglBeR4Rpg0AtwSQ?LywSph0AtQLglwwxSxhJeAAAFhQ4BeRpglBeBtR4g0Rpglx?wgWBtQ4hlg0AeglwwhHhWJeAAAFhglBeAtRpBeilg0BtRpy?wQ4Aeg0AthWQawhwwRpRaJeAAA5gglIeglDeAtRpBehlAeg?0BtRpywQ4wwg0AtwShWwhywAtKeAAA/gglCeRpCeAtglCew?hQpAeg0BthlxwQpR4g0AtwShWwhywg0KeAAA/gglRpFeAtg?lRpDeg0BtAeglxwglAtQ4g0AtwSQaxhwwBtg0KeAAAFhQ4A?eh0AeglBeBtR4g0QpwhQaglxwBtQ4g0QawhRawwyhQLJeAA?A9gwhEeRpBewhglDeRpAeg0whglBtywQ4Aeg0QLAPhlAtww?RpRaJeAAA9gwhBeRpEewhglAeRpDeg0AeglBtxwglAtQ4g0?BeglBtwwBtg0KeAAA6gAtDeQ4CeBtDeR4BeAtg0BewhhlAt?glxwg0RpwhQawhhWwwh0QpwSJeAAA9gQ4EeRpBeR4DeQpQa?Aeglg0Q4wSAtxwwhgWhlh0QawSAtwwwSQLxhJeAAA9gQ4Be?RpEeR4AeRpDeglQaQ4BtxwglQahlRag0BtwwhWwhQaJeAAA?9ghlDeQ4DeglDeR4RpQaglAtwhglxwQ4RpRag0xhwwyhQaJ?eAAADhQ4DeilBeR4RpAtAeBtxwgWQ4Rpg0Atg0BtwwhHhWJ?eAAADhQ4DeAtg0glBeR4RpBtg0glxwgWQ4RpCtAeglwwhHh?WJeAAA/gQ4EehlBeR4BeBtAeglRpg0Q4xwgWBtglQpQaAeA?tg0wwhHhWJeAAABhAtBeglQ4DeBtBeglR4RpQaAtywglAew?wRpRag0wwxSwhQaJeAAA/ghlDeQ4DeglBeBtR4Rpg0glwhx?wglwSQ4Rpg0hlwwwhQahHJeAAA/gh0CeQ4BeRpg0DeR4AeR?pAtglAtywAeglyhQaBtwhgWRLJeAAA9gh0EeQ4Beg0RpDeR?4Aeg0QpwSgWAtxwgWQ4glhWQLwhBtwwRLglJeAAAEhQ4Beh?0AtRpBeR4BegWAtRpxwgWQ4glAewhgWyhwwRLglJeAAAAhA?tDeh0BeBtR4Beg0AeRpAtR4xwgWg0glyShWwhwwRLglJeAA?AAhAtg0BeQ4DeBtg0BeR4AeRpAtglg0ywwhAPRpxShHwwgl?APglJeAAAGhAti0AeR4BeBtRpg0QpwhxwgWAtglRpxSQLwh?wwRLglJeAAA/gh0EeAtBeg0AeR4BeBtRpg0R4ywAtgWxSQL?whhHwwglhWJeAAA8gAtDeQ4CeBtDeR4BeAtg0RpBPglQ4yw?glRpAPwhhHwhwwhlJeAAA/gQ4BeRpEeR4AeRpBejlQ4wSAt?xwwhhlyhgHwSAtwwglKeAAADhAtCeglQ4AeRpBtBeg0glQ4?AeRpwhglxwg0hlAegHwhhWwwg0KeAAABhglRpDeAtBeglRp?Beg0BtR4hlwhxwg0glAeQ4hWxSwwg0KeAAABhAtEeRpAeBt?R4Beg0RpglAtwwAtglxwg0glgWglwhQahWwwg0KeAAADhAt?DeR4RpBtBeg0R4glQpQaAtywg0RaglxShHwwg0KeAAABhAt?FehlBtR4Beg0RpglAtR4whxwg0QpAPQLhWxSwwg0KeAAA/g?BtAeQ4DeywBtR4glRpg0wwxhwSwhQ4glRpg0BtBPxDhlgHJ?eAAA/gBtAeQ4DeywBtR4ilg0wwxSwhgHQ4glRpGegWwhQpJ?eAAA0gAtHeBtFeQ4AeAtywzhR4Rpwhglg0QailQ4xSgHBeg?0glAexSJeAAA0gAtHeBtGewhAtwhxwR4i0whRawwR4ilQaw?hEeAPgWBewhJeAAA0gAtHeBtFeglAeAtwhxwR4ilg0RawwR?4zhwwEegWBeg0wwJeAAA0gAtHeBtFeQ4AeAtwhxwzhR4Raw?wilh0AtQ4CeglEegHJeAAA0gAtHeBtDeglCeAtwhxwili0R?awwzhQ4Aeg0CegWBeR4gHKeAAAsgglIeglIehlEeQ4whxwz?hTpwwi0glAtRpwSAtCeg0wDwSAtKeAAA4gglHehlDeQ4xwQ?pzhRpR4wwBtg0BtRpTeAAApgglIeglIehlHeQ4ywwhQaxhR?pR4wwEtRpTeAAA9ggWBeBtDewhzwBtilwhywi0glRpwhGeR?awhJeAAAAhBtDewhQ4ywBtglRpwhR4wwhlg0glRpGeglQaw?SKeAAAAhBtAewhCeQ4ywBtwhglRpR4wwhlg0whglQpglFeQ?aAeglQaJeAAAAhBtAewhCeQ4ywBtwhilR4wwhlg0AeglRpG?egWwhQpJeAAA2gg0Iei0DeQ4ywBtzhR4wwRaAtQpilCeRpg?HQaglxSJeAAAtgg0Ieg0Heh0EeQ4xwQaBtzhR4wwxSgWAti?lTeAAAqgg0Ieg0Heh0BegHEeQ4ywgWAtzhR4wwxSBtilTeA?AAsgglIeglGegHAehlEeQ4QaxwBt1hwwRpBti0GegWAeg0J?eAAA4gglHehlDeQ4xwQpBtzhR4wwxhBti0TeAAApgglIegl?IehlHeQ4ywAtglzhR4wwxhglAti0TeAAA9ggWBeBtDewhzw?Bti0whywRpilg0whEeglCeQLJeAAAAhBtCeglAeQ4ywBtil?g0R4wwRazhwwEegWBeg0wwJeAAA2gRpHeRpAeglCeQ4ywil?i0R4wwBeyhQag0CewSwhAtBehHJeAAAzgRpHeRpDeglCeQ4?xwglQahli0R4wwyhQaxhg0TeAAAAhi0DeAtglxwAtg0zhBt?wwBtQpwhilCeAtAPQaQpglLeAAAAhi0DeQ4ywAtg0zhR4ww?hWAPhlRpEeQawSgWRpJeAAA2gg0Iei0DeQ4ywzhRpR4wwCP?BtRpCegWAegWAeAtwhwSJeAAAtgg0Ieg0Heh0EeQ4xwQazh?RpR4wwCPBtRpTeAAAqgg0Ieg0Heh0BegHEeQ4ywQLyhRpR4?wwBPglBtRpTeAAA+ggHAeBtDewhQ4QaxwBti0yhwwilRpg0?whFeQpQaAPwhJeAAAAhBtDewhQ4ywBtRpg0whR4wwhWglRp?g0GewSQpg0KeAAAAhBtAewhCeQ4ywBtwhRpg0R4wwhWglwh?RpwwFewhgHAewwJeAAAAhBtAewhCeQ4ywBtwhi0R4wwhWgl?AeRpg0GeQpwSgHJeAAABhBtAeg0BeRpywBti0RpglwhwSwh?AewhR4glQLglgWBeQaBtKeAAA+gR4Feg0R4ywzhg0ilwwRa?AtgWh0AehWAeRpAexSKeAAA+gR4BeRpg0BeR4ywRpi0glRL?wwBtyhQLDewSwhAtBPKeAAA+gR4Beg0BeRpR4ywi0RpglRL?wwAtwhgWQLxhTeAAA+gR4FewhR4ywAti0whglRLwwAtgWSp?gWDeAtAPQaQpAewhJeAAA+gR4FewhR4ywAtRpg0whglRLww?BtRpg0GewSQpg0KeAAA+gR4CewhCeR4ywAtwhRpg0glRLww?BtwhRpwwFewhgHAewwJeAAA+gR4CewhCeR4ywAtwhi0glRL?wwBtAeRpg0GeQpwSgHJeAAA9gRpBeBtAeg0BeRpywBti0gl?RLwwxhAewhR4DeAPAeQaBtKeAAA3gQ4FeAtBeR4DeBtywQ4?0hAeQpwwhlg0APhlgWRpCeg0QLwDKeAAA+gAtBezhBeBtxw?gWR4i0AtQaQpwwBeilg0FeAPgWLeAAA3gQ4FeAtBeR4DeBt?ywQ4zhAtQaQpwwyhwwh0DeglAegWBeg0JeAAA9gwhCeBtDe?whQ4xwgWBti0whQpQ4wwBPilg0whwSAtAewhQpglBegHJeA?AA9gwhCeBtDewhQ4ywBtglRpAeR4wwhlg0glRpDexSAthlK?eAAA9gwhCeBtDewhQ4ywBtilAeR4wwhlg0glRpGegWwhQpJ?eAAA9gwhCeBtDewhQ4ywBtRpg0AeR4wwhWglRpg0DeglAeg?HAeRpJeAAA9gwhCeBtDewhQ4ywBti0AeR4wwhWglRpg0GeQ?pwSgHJeAAA1gAtGewhBtGewhAtywR4i0AeRpwwRpilg0AeQ?pAPAegWAeglxSKeAAA+gR4FewhR4whxwBthlwhwwhlwwRpB?tglwhQawSQpAeRpgWAeglwhJeAAA+gR4BeRpBeglR4ywRpi?lg0RawwBtyhEewSwhAtAegWQaJeAAA+gR4DeglRpR4ywilR?pg0RawwAtwhgWxhQaTeAAA+gR4FewhR4ywAtilwhg0RawwB?tglwhAegWDeAtBPRpwhJeAAA+gR4FewhR4ywAtglRpwhg0R?awwBtglRpGeglQawSKeAAA+gR4CewhCeR4ywAtwhglRpg0R?awwBtwhglQpglFeQaAeglQaJeAAA+gR4CewhCeR4ywAtwhi?lg0RawwBtAeglRpGegWwhQpJeAAA9gRpBeBtCeglRpywBti?lg0RawwxhAewhR4DeAPAeQaQ4AtwSJeAAABhBtCeglh0ywB?tilQpAeQpwwxSxhQ4wwg0QpwSQeAAAChBtAeQ4AeilywBtR?4glRpg0whwSyhwwgHBei0AexDKeAAA2gAtHeBtEewhRpAty?wi0whRpR4wwhWglQawhAeBthHAPCewhJeAAA2gAtHeBtDeg?lAeRpAtwhxwilg0TpwwzhwwEegWBeg0wwJeAAAChBtAeQ4A?eglRpwhxwBtR4glQpQaglwwyhQaQ4glQLwDi0BehHJeAAA4?gQ4IeR4BewhilywQ4Rpwhgli0wwBeQpAPwhhWBehHBtAewh?JeAAA9gzhDeQ4AeilxwgWBtR4gli0wwBPBtg0EeQpQaAPAe?QaJeAAA4gRpHeRpBewhilywR4AtxhzwR4AtwSwhEexSAtAe?whJeAAA1gRpHeRpEewhilxwglAtQ4Atwhgli0wwDtUeAAA9?gwhAeR4FewhQ4AtglxwAtRpg0whglRawwBtRpwwwhglAegH?AeAtAeAPg0wwJeAAA9gwhAeR4FewhR4ywAti0AeglRLwwBt?Rpg0GeQpwSgHJeAAA9gwhAeR4FewhR4ywAtglRpAeg0Raww?BtglRpAegWAeg0CeRaKeAAA9gwhAeR4FewhR4ywAtilAeg0?RawwBtglRpGegWwhQpJeAAA9gwhAeR4FewhR4ywBthlAeg0?RawwRpBtglEeQaQpAewSQaJeAAA6gglGeilBeQ4Btywzhg0?Q4xSwwi0RpQaQ4AegHAexSg0QpwhJeAAAugglIeglIehlCe?Q4BtywwhQaxhR4BtwwCtRpTeAAArgglIeglIehlAegWDeQ4?BtxwQpzhR4BtwwBtg0RpTeAAA2gglGeglAeglFeQ4Atglyw?zhR4hlwwi0RpTeAAAChhlBewhQ4BtQpxwglRpwhQ4wwhlww?g0glRpwhEeh0AewSgWJeAAA4gg0Iei0BeQ4BtywzhR4Btww?xhhlwhEexSAPAeQaJeAAAvgg0Ieg0Heh0CeQ4BtxwQazhR4?BtwwxSAPhlTeAAA0gg0Iei0BegHCeQ4BtywQLyhR4BtwwxS?ilTeAAAsgg0Ieg0Heh0FeQ4gWAtywzhQ4whhWwwRpilTeAA?A6gglEegHAeilBeQ4BtQaxwzhR4hWwwRpi0GegWAeg0JeAA?AugglIeglIehlCeQ4BtywwhQaxhR4BtwwxhAth0TeAAArgg?lIeglIehlAegWDeQ4BtxwQpzhR4Btwwxhi0TeAAA2gglGeg?lAeglFeQ4AtglywzhR4hlwwRpi0TeAAA4gRpHeRpBewhQ4B?tQpxwi0whQ4wwhlwwilg0whEeQawSBeQLJeAAA1gRpHeRpE?ewhQ4BtxwglQph0whR4BtwwRaglg0UeAAA4gg0Iei0BeQ4A?twhglxwzhR4xhwwilQpglHeQpglJeAAAvgg0Ieg0Heh0CeQ?4BtxwQazhR4BtwwCPRpTeAAA0gg0Iei0BegHCeQ4BtywQLy?hR4BtwwBPglRpTeAAAsgg0Ieg0Heh0FeQ4gWAtywzhQ4whh?WwwilRpTeAAA4gRpFegHAeRpAeglAeQ4BtQaxwilg0R4hWw?wzhg0EegWBeRpJeAAA1gRpHeRpDeglAeQ4BtxwglQahlg0R?4BtwwhWwhQag0TeAAA/gh0EewhSpglxwR4AtwhSpQawwR4A?tglwhAeQLhlCeAtgHQLJeAAA5gg0Iei0AezhywR4AtRpBPg?lwwR4AtRpwhAegWCeAPAtQaJeAAAwgg0Ieg0Heh0BezhxwQ?aR4AtRpilwwxhgWAtTeAAA1gg0Iei0BegHBezhywwhQ4AtR?pilwwxhBtTeAAAtgg0Ieg0Heh0EexhQLwhywR4AtRpCPwwR?4BtTeAAA+gAtAeQ4whEeBtR4QaxwRpg0AtxhRLwwglRpg0x?SgWAeilAeglg0JeAAA+gAtAeR4EeBtR4ywi0AtwSwhhHwwg?lRpg0GeQpwSgHJeAAADhBtAewhilQ4ywBtwhglQaQpBewwi?0whAeRpAewwhWwSQpwhJeAAADhBtAewhglRpQ4ywBtwhglR?pR4wwhlg0AeglQawSQeAAA5gQ4Deg0DeR4Begli0ywQ4Rpg?lzhwwBeQpglDewDBeAtgWQaJeAAA5gRpCeg0DeRpBegli0x?wgWR4AtglQLyhwwBeBtGeAPLeAAA2gRpFeg0AeRpEegli0x?wglAtQ4AtglQLyhwwDtTeAAA5gg0Iei0AeyhgWglxwR4Atg?lAPglBewwR4BtAegWAeRpOeAAAwgg0Ieg0Heh0BezhxwQaR?4AtilRpwwxhgWAtTeAAA1gg0Iei0BegHBezhywwhQ4AtilR?pwwxhBtTeAAAtgg0Ieg0Heh0EexhQLwhywR4AthlAPxSwwR?4BtTeAAA+gAtBegHAezhBtR4Qaxwi0AtR4xSwwilg0gWEeg?lAeAPKeAAADhBtAewhi0Q4ywBtwhQpQag0R4wwyhAeRpAew?SAtDewhJeAAA9gwhEehlBewhQ4BtywglRpwhR4BtwwglgWQ?pglgWwSQ4AewDAeAth0QaJeAAA5gRpBewhEeRpBewhQ4Bty?wi0AeR4BtwwBeglg0FeAPhHKeAAA2gRpEewhBeRpEewhQ4B?txwglQph0AeR4BtwwRaglg0TeAAA7gglGeilAeyhgWglxwR?4AtglQpg0RpwwR4BtglQpwDAeg0AegWAeAtKeAAAvgglIeg?lIehlBezhywQ4wwAtRpi0ywglAtTeAAA3gglGeilAegWCez?hxwQpR4AtRpi0ywBtTeAAAsgglIeglIehlEezhQpxwR4AtR?pCtwwR4BtTeAAA3gAtEewhBeglAtEewhRpglywi0whRpywi?lg0gWwSR4gHAeglAeAPKeAAA7gglGeilAe0hxwR4Atwwh0R?awwR4BtQaAeQaAPQpAegWAeAtKeAAAvgglIeglIehlBezhy?wQ4wwAti0RpywglAtTeAAA3gglGeilAegWCezhxwQpR4Ati?0RpywBtTeAAAsgglIeglIehlEezhQpxwR4Ath0AtxhwwR4B?tTeAAA9gwhBeAtg0EewhRpAtywR4AtwhRpAtAewwR4BtwhA?eAPRaOeAAADhBtAewhh0R4ywBtwhwwR4xSwwilwhwwAegWx?hAeglAeAPwhJeAAADhBtAewhRpg0Q4ywBtwhRpg0R4wwhWg?lAegHh0wSAtOeAAA5gQ4CewhEeR4BewhilywQ4Rpwhgli0w?wBeQpglwhhHAeQaAegWBtQaJeAAA5gRpBewhEeRpBewhilx?wgWR4AtAegli0wwBeBtGeAPLeAAA2gRpEewhBeRpEewhilx?wglAtQ4AtAegli0wwDtTeAAA9gRpBeglBeBtAeRpglRaywB?tAexhgWAtQ4wwi0QaBeQ4whCeAPg0JeAAA/gglRpBeBtAei?lRpywBthWxhwwQ4wwhlg0TeAAA9gRpg0DeBtAeRpi0ywBtx?hQagWAtQ4wwhWglGeglAegHJeAAA9gg0BeRpBeBtAei0Rpy?wBthWQLwhR4wwhWglTeAAABhR4CewhilR4ywAtwhAPTpg0w?wBewhAeRpxDg0AeglAewhJeAAAAhwhCeBtAeilwhQ4ywBtg?lRpwhBewwh0wwCewhAewhAeAPAewwJeAAABhR4CewhglRpR?4ywAtwhglRpwwh0wwBewhglQawSQaAeQaAeAtAeQLJeAAAA?hwhCeBtAeglRpwhQ4ywBtglRpwhBewwh0wwCewhAewhAeAP?AewwJeAAABhR4CewhilR4ywAtwhglh0wwRpwwBewhhWAeww?QpAPAeAtAeQLJeAAA/gzhBeQ4AeilBtywR4gli0xSwwRpg0?DexSAeQaQpQaJeAAA6gQ4IeR4whilBtywQ4whglg0xwRpww?QpAPwhIewhJeAAA4gAtHeBtBeQ4AezhAtxwgWR4ili0wwBP?g0glBegHAeg0CeQaJeAAA9gglFeBtAegl0hxwBthlR4Raww?g0Qag0gWR4AeQpwSAexSg0JeAAA9gwhFeBtAewhh0R4ywBt?Qag0R4RpwwhWglwhQawDDeglAegHJeAAABhR4Cewhi0R4yw?AtwhglQpg0ilwwBewhglwSAeglxSAeglAewhJeAAAAhwhCe?BtAei0whQ4ywBtRpg0whBewwhlwhCeQaAeQ4AegWAeQaJeA?AA9gwhFeBtAewhi0Q4ywBtwhRpwwR4wwhWglgWAeQpQaPeA?AA4gAtHeBtBeQ4AezhAtywR4wwh0ilwwRaQ4QawSQpglAew?DAewhQpKeAAA9gg0CeR4Dei0R4whxwhlBtxhxSwwQpAPglA?eAthWEeglJeAAA/gglAeR4DeilR4ywRpgWAtxhhHwwg0RpG?eRpAtJeAAA/gglAeR4BeRpilR4ywRpBtQawhhHwwi0GehHK?eAAA9gg0CeR4BeRpi0R4ywRpBtQawhhHwwglRaGeglAegHJ?eAAA9gwhFeBtAewhRpg0Q4ywBtQLRpg0BewwglRawhAPglg?0AeQ4NeAAABhR4CewhRpg0R4ywAtwhglQpg0ilwwBewhQag?0AeAPAewDAeglAewhJeAAA9gwhFeBtAewhglRpQ4ywBtwhg?lRpBewwh0wwwhBPgWAeQ4AeAPAewwJeAAA9gwhFeBtAewhi?lQ4ywBtAeglRpR4wwhlg0AegWwhQpPeAAAAhwhCeBtAeRpg?0whQ4ywBtglQpg0whR4wwhWglQag0QpgWCeglAegHJeAAA7?gQ4BeAtFeR4BtzhywQ4Athlwhi0whQaQpAeAPgHQaAewDg0?gWRpJeAAAAhwhAeR4CeilwhR4xwgWAtglQaQpwhi0wwxSAe?whQpwhDewhwSJeAAAygg0Ieg0Heh0RpzhywAtRpQ4g0glRL?wwBtAeBtQaglAegHMeAAAvgg0Ieg0Heh0BegHRpzhywgWRp?R4ilwwhWTeAAA3gg0Ieh0DeRpzhQaxwAtRpR4glBPwwBtTe?AAAxgglIeglIehlRpxhQLwhywAtRpR4CewwBtDegWAeg0Me?AAAugglIeglIehlAegWAeRpzhxwQpAtRpR4i0wwhlTeAAA5?gglGeglAeglCeRpyhQaywAtRpR4g0BtwwBtTeAAA7gQ4Deg?0DeR4ili0QpxwQ4glBtwhSawwRpAewDwSAtBegHAeQaQpJe?AAA7gRpCeg0DeRpili0xwgWAtglxhQLwhR4wwxSBeBPR4Be?whwSJeAAA4gRpFeg0AeRpCeili0xwglwhglxhQLwhR4wwxh?TeAAAAhwhAeR4CeglRpwhQ4AtglxwAtglRpQLg0RpwwBthl?AewhxDg0MeAAA+gg0CeR4Cegli0R4ywAtglxhAewhBPwwBt?CeQaAeQpwSMeAAA7gQ4Beg0FeR4gli0BtywQ4glQLyhxSww?RpEexSAeQaQpJeAAAygg0Ieg0Heh0zhR4xwgWAtglAPglR4?RpwwxSAegWCeRpAewhwSJeAAAvgg0Ieg0Heh0BegHzhR4yw?gWilR4RpwwhWTeAAA3gg0Ieh0DezhR4QaxwAtilR4xSwwBt?TeAAAAhwhAeR4Cei0xhQ4ywAtRpg0whCPwwBtwhQpAewhgl?xSMeAAAxgglIeglIehlzhR4ywAtj0Q4BPwwBtxSg0QagWRp?MeAAAugglIeglIehlAegWAezhR4xwQpAti0R4RpwwhlTeAA?A5gglGeglAeglCezhQ4zwAti0R4xhwwBtTeAAABhilCezhg?lQ4QpxwAtRph0AtywBtRpgHAeg0wSAtMeAAA9gwhDeR4Cew?hi0R4ywAtwhRpg0CewwBtgWAeQpAeAPAewDMeAAABhilCez?hglQ4ywAtwwh0RpBewwBtQawSRpwhAeQ4MeAAA9gwhDeR4C?ewhRpg0R4ywAtwhRpg0CewwBtwhBeQpQaAewDMeAAA9gwhD?eR4CewhglRpR4ywAtAeglRpg0RawwBtAeglAPgHgWAeg0Me?AAA9gwhDeR4CewhilR4ywAtAeglRpg0RawwBtAegWwhQpPe?AAA7gQ4AewhGeR4whilBtywQ4Aegli0xSwwRpBexSg0AegH?AeQaQpJeAAA9gwhDeR4CewhilR4xwgWAtAegli0RpwwxSEe?RpAewhwSJeAAAAhwhAeR4CeRpg0whR4ywAtglQpg0whglRL?wwBtQah0whAPxSMeAAA7gQ4BeAtFeR4BtzhywQ4Ath0wwgl?RLwwRpAehHwwDeQaQpJeAAABhAtAeR4Bei0BtR4wwgWwwQp?Qag0AtzhgWQLRpAegHgWBeglRaJeAAABhAtAeR4BeRpg0Bt?R4ywRpg0AtwSwhhHwwglwSQpg0QeAAA3ghlIeglBeQ4Aezh?wwglBtR4i0wwwhQpAPwSAtQ4AegHBewwRpiWJeAAA3gh0Ee?AtBeg0EeBtR4AtQpzhAtR4SpwwglQLglBegHQpgWglwSglL?eAAA">すべてのT-Spin Double</a> ( <a class="reference external" href="https://knewjade.github.io/fumen-for-mobile/#?d=v115&#64;HhglBeBtAeQ4CeglywBtR4RphlwwzhQ4RpJeAgHAhQ?4FeglBeR4EeglywQ4i0RpAeglwwxSwhgHg0RpJeAAA/gAtH?eBtFeglg0AtwwgWwwR4ilAth0gWAeQ4zhJeAAA/gAtHeBtD?eglBeg0AtwhxwilRpg0hlwwzhQpwhJeAAAChQ4Deg0DeR4C?eh0glywQ4glRpwhxSwhwwhlAeRpJeAAAChQ4DeglDeR4Ceg?lBtxwgWQ4i0APglBtwwhHxhg0JeAAAJhglBeBtAeQ4AeRpg?lxwgWBtR4whQphlwwhHxhQ4JeAAAChQ4FeglBeR4CeRpgly?wQ4i0RpAeglwwxSwhgHg0JeAAAIhAtAeR4Beg0BeBtR4wwg?Wwwg0RpAtwhQaxhgWQag0RpJeAAABhAtHeBtDeg0ilAtywR?4g0glwSwhhHwwQ4whh0JeAAABhAtHeBtBeg0BeilAtwhxwg?0RpglxhxSwwh0QpwSJeAAABhAtHeBtDeglRpg0AtwhxwilR?pg0hlwwwhQLxhJeAAAEhQ4Beg0FeR4Aei0AtAeywQ4glyhw?SAeAtwwhlKeAAAEhQ4Deg0DeR4AeRpi0xwgWQ4glwSQpzhw?wRLglJeAAADhAtHeBtBeg0RpilAtwwgWwwg0RpAPzhgWQag?0JeAAAKhAtAeR4Beg0RpBtR4whxwg0RpAtxhxSwwg0KeAAA?AhRpBeAtBeglBeRpAeBtBeglywR4Ati0hlwwQpQ4hHxhKeA?AAAhRpg0DeglBeRpg0BeQ4AeglxwglQpg0AtAeR4Aeglwwh?WwhwSAeAtQ4JeAAAAhQ4FeglBeR4RpAeAtg0glxwglAtwSQ?pBtg0AeglwwhWQLwhAtQag0JeAAAChQ4DeglBeBtR4h0Aeg?lxwgWBtQ4g0RpAeglwwhHhWg0QawSJeAAAzgQ4IeR4CeAtD?eglQ4BeBtDeglywAtQah0RpAeglwwxShHAewSQpJeAAAChQ?4DeQLBeBtR4AeRpQLgWxwAtAeQ4g0RpAeQLwwwhxSwhi0Je?AAAAhQ4FeglBeR4RpBtAeglywQ4APQpg0BtAeglwwxShHg0?RpJeAAA/gAtEehlAeBtDeRpglg0AtwwgWwwR4RpglAth0gW?AeAtgWxSwhJeAAA/gAtCehlCeBtDeglRpg0AtwhxwR4glxh?g0hlwwR4whhWQaJeAAA9gQ4EehlBeR4BeBtAeglBeg0Q4wh?xwAtglAeRpg0hlwwyhQaLeAAA9gQ4IeR4BeBtAeilQaQ4yw?AtglAeRpRag0wwxSwhQaRpJeAAA/gAtBeglQ4DeBtBeglR4?BeQaAtywhlQ4RpRag0wwxSwhQaxhJeAAA9ghlDeQ4DeglBe?BtR4Beg0glwhxwglwSQ4Rpg0hlwwwhQahHRpJeAAA/gAtHe?BtBeRpQ4hlAtglywQpAPR4glg0Atg0wwxShHQ4glJeAAAAh?AtFeRpBtBei0AeRpAeywR4g0glwhxSwhwwBtQLLeAAAAhAt?Deh0RpBtDeg0AeRpAtwhxwR4g0glhWxSwwQ4whBPglJeAAA?ChRpBeAtg0DeRpAeBti0whxwR4gWAPhWxSwwR4glAPglJeA?AA/gRpEeAtg0AeRpDeBti0xwglAtQ4AtgWQLyhwwBtglhWJ?eAAA+gAtHeBtR4Beg0AehlAtQ4Atglxwg0RpgWQLwhhWwwh?0QpQagWJeAAA+gAtHeBtR4Beg0RpAeAtQpQ4ywg0RpglxSh?Hwwg0AeglLeAAAAhAtFeRpBtBeg0AeR4QpQaAtywg0R4glx?ShHwwg0AeRaglJeAAAAhAtFeRpBtBeg0glQ4AeRpAtwhxwg?0glR4hWxSwwg0AeglQLKeAAA+gAtDeh0BeBtR4Beg0CeAtR?4whxwg0glRphWxSwwglAPAeAPQpJeAAA+gAtg0BeQ4DeBtg?0BeR4CeAtglg0ywwhAPRpxShHwwglAPglRpJeAAA9gh0EeA?tBeg0AeR4BeBtBeg0QpwhxwgWAtglRpxSQLwhwwRLglRpJe?AAAChRpBewhglDeRpAeg0whAPgWAtywQ4Qpg0whAPglxSww?Q4Qpglg0whJeAAA/gRpEewhglAeRpDeg0whglBtxwglAtQ4?g0BeglBtwwBtg0LeAAA+gg0Hegli0BeRpQ4AeglAtwhglxw?RpQ4g0AeglxhwwyhQLg0JeAAA2gg0Ieg0FeglAeh0BeRpQ4?AeglgWAtywRpR4AeAPhWwwwhhWgHQ4JeAAAChRpg0BeglBe?gHAeRpg0Q4AeglBtQaxwh0R4AeglhWwwwhhWgHQ4JeAAA/g?RpCeg0BeglAeRpCeg0Q4AeglBtxwglQpAeR4AeglBtwwhWQ?LgHQ4JeAAA1gQ4IeR4CeAtDeglQ4BeBtBeRpQaglxwAtAeh?0whQpRawwxhQLgHg0JeAAADhQ4CeBtwDglBeR4Rpg0AtwSQ?LywSph0AtQLglwwxSxhJeAAAFhQ4BeRpglBeBtR4g0Rpglx?wgWBtQ4hlg0AeglwwhHhWJeAAAFhglBeAtRpBeilg0BtRpy?wQ4Aeg0AthWQawhwwRpRaJeAAA5gglIeglDeAtRpBehlAeg?0BtRpywQ4wwg0AtwShWwhywAtKeAAA/gglCeRpCeAtglCew?hQpAeg0BthlxwQpR4g0AtwShWwhywg0KeAAA/gglRpFeAtg?lRpDeg0BtAeglxwglAtQ4g0AtwSQaxhwwBtg0KeAAAFhQ4A?eh0AeglBeBtR4g0QpwhQaglxwBtQ4g0QawhRawwyhQLJeAA?A9gwhEeRpBewhglDeRpAeg0whglBtywQ4Aeg0QLAPhlAtww?RpRaJeAAA9gwhBeRpEewhglAeRpDeg0AeglBtxwglAtQ4g0?BeglBtwwBtg0KeAAA6gAtDeQ4CeBtDeR4BeAtg0BewhhlAt?glxwg0RpwhQawhhWwwh0QpwSJeAAA9gQ4EeRpBeR4DeQpQa?Aeglg0Q4wSAtxwwhgWhlh0QawSAtwwwSQLxhJeAAA9gQ4Be?RpEeR4AeRpDeglQaQ4BtxwglQahlRag0BtwwhWwhQaJeAAA?9ghlDeQ4DeglDeR4RpQaglAtwhglxwQ4RpRag0xhwwyhQaJ?eAAADhQ4DeilBeR4RpAtAeBtxwgWQ4Rpg0Atg0BtwwhHhWJ?eAAADhQ4DeAtg0glBeR4RpBtg0glxwgWQ4RpCtAeglwwhHh?WJeAAA/gQ4EehlBeR4BeBtAeglRpg0Q4xwgWBtglQpQaAeA?tg0wwhHhWJeAAABhAtBeglQ4DeBtBeglR4RpQaAtywglAew?wRpRag0wwxSwhQaJeAAA/ghlDeQ4DeglBeBtR4Rpg0glwhx?wglwSQ4Rpg0hlwwwhQahHJeAAA/gh0CeQ4BeRpg0DeR4AeR?pAtglAtywAeglyhQaBtwhgWRLJeAAA9gh0EeQ4Beg0RpDeR?4Aeg0QpwSgWAtxwgWQ4glhWQLwhBtwwRLglJeAAAEhQ4Beh?0AtRpBeR4BegWAtRpxwgWQ4glAewhgWyhwwRLglJeAAAAhA?tDeh0BeBtR4Beg0AeRpAtR4xwgWg0glyShWwhwwRLglJeAA?AAhAtg0BeQ4DeBtg0BeR4AeRpAtglg0ywwhAPRpxShHwwgl?APglJeAAAGhAti0AeR4BeBtRpg0QpwhxwgWAtglRpxSQLwh?wwRLglJeAAA/gh0EeAtBeg0AeR4BeBtRpg0R4ywAtgWxSQL?whhHwwglhWJeAAA8gAtDeQ4CeBtDeR4BeAtg0RpBPglQ4yw?glRpAPwhhHwhwwhlJeAAA/gQ4BeRpEeR4AeRpBejlQ4wSAt?xwwhhlyhgHwSAtwwglKeAAADhAtCeglQ4AeRpBtBeg0glQ4?AeRpwhglxwg0hlAegHwhhWwwg0KeAAABhglRpDeAtBeglRp?Beg0BtR4hlwhxwg0glAeQ4hWxSwwg0KeAAABhAtEeRpAeBt?R4Beg0RpglAtwwAtglxwg0glgWglwhQahWwwg0KeAAADhAt?DeR4RpBtBeg0R4glQpQaAtywg0RaglxShHwwg0KeAAABhAt?FehlBtR4Beg0RpglAtR4whxwg0QpAPQLhWxSwwg0KeAAA/g?BtAeQ4DeywBtR4glRpg0wwxhwSwhQ4glRpg0BtBPxDhlgHJ?eAAA/gBtAeQ4DeywBtR4ilg0wwxSwhgHQ4glRpGegWwhQpJ?eAAA0gAtHeBtFeQ4AeAtywzhR4Rpwhglg0QailQ4xSgHBeg?0glAexSJeAAA0gAtHeBtGewhAtwhxwR4i0whRawwR4ilQaw?hEeAPgWBewhJeAAA0gAtHeBtFeglAeAtwhxwR4ilg0RawwR?4zhwwEegWBeg0wwJeAAA0gAtHeBtFeQ4AeAtwhxwzhR4Raw?wilh0AtQ4CeglEegHJeAAA0gAtHeBtDeglCeAtwhxwili0R?awwzhQ4Aeg0CegWBeR4gHKeAAAsgglIeglIehlEeQ4whxwz?hTpwwi0glAtRpwSAtCeg0wDwSAtKeAAA4gglHehlDeQ4xwQ?pzhRpR4wwBtg0BtRpTeAAApgglIeglIehlHeQ4ywwhQaxhR?pR4wwEtRpTeAAA9ggWBeBtDewhzwBtilwhywi0glRpwhGeR?awhJeAAAAhBtDewhQ4ywBtglRpwhR4wwhlg0glRpGeglQaw?SKeAAAAhBtAewhCeQ4ywBtwhglRpR4wwhlg0whglQpglFeQ?aAeglQaJeAAAAhBtAewhCeQ4ywBtwhilR4wwhlg0AeglRpG?egWwhQpJeAAA2gg0Iei0DeQ4ywBtzhR4wwRaAtQpilCeRpg?HQaglxSJeAAAtgg0Ieg0Heh0EeQ4xwQaBtzhR4wwxSgWAti?lTeAAAqgg0Ieg0Heh0BegHEeQ4ywgWAtzhR4wwxSBtilTeA?AAsgglIeglGegHAehlEeQ4QaxwBt1hwwRpBti0GegWAeg0J?eAAA4gglHehlDeQ4xwQpBtzhR4wwxhBti0TeAAApgglIegl?IehlHeQ4ywAtglzhR4wwxhglAti0TeAAA9ggWBeBtDewhzw?Bti0whywRpilg0whEeglCeQLJeAAAAhBtCeglAeQ4ywBtil?g0R4wwRazhwwEegWBeg0wwJeAAA2gRpHeRpAeglCeQ4ywil?i0R4wwBeyhQag0CewSwhAtBehHJeAAAzgRpHeRpDeglCeQ4?xwglQahli0R4wwyhQaxhg0TeAAAAhi0DeAtglxwAtg0zhBt?wwBtQpwhilCeAtAPQaQpglLeAAAAhi0DeQ4ywAtg0zhR4ww?hWAPhlRpEeQawSgWRpJeAAA2gg0Iei0DeQ4ywzhRpR4wwCP?BtRpCegWAegWAeAtwhwSJeAAAtgg0Ieg0Heh0EeQ4xwQazh?RpR4wwCPBtRpTeAAAqgg0Ieg0Heh0BegHEeQ4ywQLyhRpR4?wwBPglBtRpTeAAA+ggHAeBtDewhQ4QaxwBti0yhwwilRpg0?whFeQpQaAPwhJeAAAAhBtDewhQ4ywBtRpg0whR4wwhWglRp?g0GewSQpg0KeAAAAhBtAewhCeQ4ywBtwhRpg0R4wwhWglwh?RpwwFewhgHAewwJeAAAAhBtAewhCeQ4ywBtwhi0R4wwhWgl?AeRpg0GeQpwSgHJeAAABhBtAeg0BeRpywBti0RpglwhwSwh?AewhR4glQLglgWBeQaBtKeAAA+gR4Feg0R4ywzhg0ilwwRa?AtgWh0AehWAeRpAexSKeAAA+gR4BeRpg0BeR4ywRpi0glRL?wwBtyhQLDewSwhAtBPKeAAA+gR4Beg0BeRpR4ywi0RpglRL?wwAtwhgWQLxhTeAAA+gR4FewhR4ywAti0whglRLwwAtgWSp?gWDeAtAPQaQpAewhJeAAA+gR4FewhR4ywAtRpg0whglRLww?BtRpg0GewSQpg0KeAAA+gR4CewhCeR4ywAtwhRpg0glRLww?BtwhRpwwFewhgHAewwJeAAA+gR4CewhCeR4ywAtwhi0glRL?wwBtAeRpg0GeQpwSgHJeAAA9gRpBeBtAeg0BeRpywBti0gl?RLwwxhAewhR4DeAPAeQaBtKeAAA3gQ4FeAtBeR4DeBtywQ4?0hAeQpwwhlg0APhlgWRpCeg0QLwDKeAAA+gAtBezhBeBtxw?gWR4i0AtQaQpwwBeilg0FeAPgWLeAAA3gQ4FeAtBeR4DeBt?ywQ4zhAtQaQpwwyhwwh0DeglAegWBeg0JeAAA9gwhCeBtDe?whQ4xwgWBti0whQpQ4wwBPilg0whwSAtAewhQpglBegHJeA?AA9gwhCeBtDewhQ4ywBtglRpAeR4wwhlg0glRpDexSAthlK?eAAA9gwhCeBtDewhQ4ywBtilAeR4wwhlg0glRpGegWwhQpJ?eAAA9gwhCeBtDewhQ4ywBtRpg0AeR4wwhWglRpg0DeglAeg?HAeRpJeAAA9gwhCeBtDewhQ4ywBti0AeR4wwhWglRpg0GeQ?pwSgHJeAAA1gAtGewhBtGewhAtywR4i0AeRpwwRpilg0AeQ?pAPAegWAeglxSKeAAA+gR4FewhR4whxwBthlwhwwhlwwRpB?tglwhQawSQpAeRpgWAeglwhJeAAA+gR4BeRpBeglR4ywRpi?lg0RawwBtyhEewSwhAtAegWQaJeAAA+gR4DeglRpR4ywilR?pg0RawwAtwhgWxhQaTeAAA+gR4FewhR4ywAtilwhg0RawwB?tglwhAegWDeAtBPRpwhJeAAA+gR4FewhR4ywAtglRpwhg0R?awwBtglRpGeglQawSKeAAA+gR4CewhCeR4ywAtwhglRpg0R?awwBtwhglQpglFeQaAeglQaJeAAA+gR4CewhCeR4ywAtwhi?lg0RawwBtAeglRpGegWwhQpJeAAA9gRpBeBtCeglRpywBti?lg0RawwxhAewhR4DeAPAeQaQ4AtwSJeAAABhBtCeglh0ywB?tilQpAeQpwwxSxhQ4wwg0QpwSQeAAAChBtAeQ4AeilywBtR?4glRpg0whwSyhwwgHBei0AexDKeAAA2gAtHeBtEewhRpAty?wi0whRpR4wwhWglQawhAeBthHAPCewhJeAAA2gAtHeBtDeg?lAeRpAtwhxwilg0TpwwzhwwEegWBeg0wwJeAAAChBtAeQ4A?eglRpwhxwBtR4glQpQaglwwyhQaQ4glQLwDi0BehHJeAAA4?gQ4IeR4BewhilywQ4Rpwhgli0wwBeQpAPwhhWBehHBtAewh?JeAAA9gzhDeQ4AeilxwgWBtR4gli0wwBPBtg0EeQpQaAPAe?QaJeAAA4gRpHeRpBewhilywR4AtxhzwR4AtwSwhEexSAtAe?whJeAAA1gRpHeRpEewhilxwglAtQ4Atwhgli0wwDtUeAAA9?gwhAeR4FewhQ4AtglxwAtRpg0whglRawwBtRpwwwhglAegH?AeAtAeAPg0wwJeAAA9gwhAeR4FewhR4ywAti0AeglRLwwBt?Rpg0GeQpwSgHJeAAA9gwhAeR4FewhR4ywAtglRpAeg0Raww?BtglRpAegWAeg0CeRaKeAAA9gwhAeR4FewhR4ywAtilAeg0?RawwBtglRpGegWwhQpJeAAA9gwhAeR4FewhR4ywBthlAeg0?RawwRpBtglEeQaQpAewSQaJeAAA6gglGeilBeQ4Btywzhg0?Q4xSwwi0RpQaQ4AegHAexSg0QpwhJeAAAugglIeglIehlCe?Q4BtywwhQaxhR4BtwwCtRpTeAAArgglIeglIehlAegWDeQ4?BtxwQpzhR4BtwwBtg0RpTeAAA2gglGeglAeglFeQ4Atglyw?zhR4hlwwi0RpTeAAAChhlBewhQ4BtQpxwglRpwhQ4wwhlww?g0glRpwhEeh0AewSgWJeAAA4gg0Iei0BeQ4BtywzhR4Btww?xhhlwhEexSAPAeQaJeAAAvgg0Ieg0Heh0CeQ4BtxwQazhR4?BtwwxSAPhlTeAAA0gg0Iei0BegHCeQ4BtywQLyhR4BtwwxS?ilTeAAAsgg0Ieg0Heh0FeQ4gWAtywzhQ4whhWwwRpilTeAA?A6gglEegHAeilBeQ4BtQaxwzhR4hWwwRpi0GegWAeg0JeAA?AugglIeglIehlCeQ4BtywwhQaxhR4BtwwxhAth0TeAAArgg?lIeglIehlAegWDeQ4BtxwQpzhR4Btwwxhi0TeAAA2gglGeg?lAeglFeQ4AtglywzhR4hlwwRpi0TeAAA4gRpHeRpBewhQ4B?tQpxwi0whQ4wwhlwwilg0whEeQawSBeQLJeAAA1gRpHeRpE?ewhQ4BtxwglQph0whR4BtwwRaglg0UeAAA4gg0Iei0BeQ4A?twhglxwzhR4xhwwilQpglHeQpglJeAAAvgg0Ieg0Heh0CeQ?4BtxwQazhR4BtwwCPRpTeAAA0gg0Iei0BegHCeQ4BtywQLy?hR4BtwwBPglRpTeAAAsgg0Ieg0Heh0FeQ4gWAtywzhQ4whh?WwwilRpTeAAA4gRpFegHAeRpAeglAeQ4BtQaxwilg0R4hWw?wzhg0EegWBeRpJeAAA1gRpHeRpDeglAeQ4BtxwglQahlg0R?4BtwwhWwhQag0TeAAA/gh0EewhSpglxwR4AtwhSpQawwR4A?tglwhAeQLhlCeAtgHQLJeAAA5gg0Iei0AezhywR4AtRpBPg?lwwR4AtRpwhAegWCeAPAtQaJeAAAwgg0Ieg0Heh0BezhxwQ?aR4AtRpilwwxhgWAtTeAAA1gg0Iei0BegHBezhywwhQ4AtR?pilwwxhBtTeAAAtgg0Ieg0Heh0EexhQLwhywR4AtRpCPwwR?4BtTeAAA+gAtAeQ4whEeBtR4QaxwRpg0AtxhRLwwglRpg0x?SgWAeilAeglg0JeAAA+gAtAeR4EeBtR4ywi0AtwSwhhHwwg?lRpg0GeQpwSgHJeAAADhBtAewhilQ4ywBtwhglQaQpBewwi?0whAeRpAewwhWwSQpwhJeAAADhBtAewhglRpQ4ywBtwhglR?pR4wwhlg0AeglQawSQeAAA5gQ4Deg0DeR4Begli0ywQ4Rpg?lzhwwBeQpglDewDBeAtgWQaJeAAA5gRpCeg0DeRpBegli0x?wgWR4AtglQLyhwwBeBtGeAPLeAAA2gRpFeg0AeRpEegli0x?wglAtQ4AtglQLyhwwDtTeAAA5gg0Iei0AeyhgWglxwR4Atg?lAPglBewwR4BtAegWAeRpOeAAAwgg0Ieg0Heh0BezhxwQaR?4AtilRpwwxhgWAtTeAAA1gg0Iei0BegHBezhywwhQ4AtilR?pwwxhBtTeAAAtgg0Ieg0Heh0EexhQLwhywR4AthlAPxSwwR?4BtTeAAA+gAtBegHAezhBtR4Qaxwi0AtR4xSwwilg0gWEeg?lAeAPKeAAADhBtAewhi0Q4ywBtwhQpQag0R4wwyhAeRpAew?SAtDewhJeAAA9gwhEehlBewhQ4BtywglRpwhR4BtwwglgWQ?pglgWwSQ4AewDAeAth0QaJeAAA5gRpBewhEeRpBewhQ4Bty?wi0AeR4BtwwBeglg0FeAPhHKeAAA2gRpEewhBeRpEewhQ4B?txwglQph0AeR4BtwwRaglg0TeAAA7gglGeilAeyhgWglxwR?4AtglQpg0RpwwR4BtglQpwDAeg0AegWAeAtKeAAAvgglIeg?lIehlBezhywQ4wwAtRpi0ywglAtTeAAA3gglGeilAegWCez?hxwQpR4AtRpi0ywBtTeAAAsgglIeglIehlEezhQpxwR4AtR?pCtwwR4BtTeAAA3gAtEewhBeglAtEewhRpglywi0whRpywi?lg0gWwSR4gHAeglAeAPKeAAA7gglGeilAe0hxwR4Atwwh0R?awwR4BtQaAeQaAPQpAegWAeAtKeAAAvgglIeglIehlBezhy?wQ4wwAti0RpywglAtTeAAA3gglGeilAegWCezhxwQpR4Ati?0RpywBtTeAAAsgglIeglIehlEezhQpxwR4Ath0AtxhwwR4B?tTeAAA9gwhBeAtg0EewhRpAtywR4AtwhRpAtAewwR4BtwhA?eAPRaOeAAADhBtAewhh0R4ywBtwhwwR4xSwwilwhwwAegWx?hAeglAeAPwhJeAAADhBtAewhRpg0Q4ywBtwhRpg0R4wwhWg?lAegHh0wSAtOeAAA5gQ4CewhEeR4BewhilywQ4Rpwhgli0w?wBeQpglwhhHAeQaAegWBtQaJeAAA5gRpBewhEeRpBewhilx?wgWR4AtAegli0wwBeBtGeAPLeAAA2gRpEewhBeRpEewhilx?wglAtQ4AtAegli0wwDtTeAAA9gRpBeglBeBtAeRpglRaywB?tAexhgWAtQ4wwi0QaBeQ4whCeAPg0JeAAA/gglRpBeBtAei?lRpywBthWxhwwQ4wwhlg0TeAAA9gRpg0DeBtAeRpi0ywBtx?hQagWAtQ4wwhWglGeglAegHJeAAA9gg0BeRpBeBtAei0Rpy?wBthWQLwhR4wwhWglTeAAABhR4CewhilR4ywAtwhAPTpg0w?wBewhAeRpxDg0AeglAewhJeAAAAhwhCeBtAeilwhQ4ywBtg?lRpwhBewwh0wwCewhAewhAeAPAewwJeAAABhR4CewhglRpR?4ywAtwhglRpwwh0wwBewhglQawSQaAeQaAeAtAeQLJeAAAA?hwhCeBtAeglRpwhQ4ywBtglRpwhBewwh0wwCewhAewhAeAP?AewwJeAAABhR4CewhilR4ywAtwhglh0wwRpwwBewhhWAeww?QpAPAeAtAeQLJeAAA/gzhBeQ4AeilBtywR4gli0xSwwRpg0?DexSAeQaQpQaJeAAA6gQ4IeR4whilBtywQ4whglg0xwRpww?QpAPwhIewhJeAAA4gAtHeBtBeQ4AezhAtxwgWR4ili0wwBP?g0glBegHAeg0CeQaJeAAA9gglFeBtAegl0hxwBthlR4Raww?g0Qag0gWR4AeQpwSAexSg0JeAAA9gwhFeBtAewhh0R4ywBt?Qag0R4RpwwhWglwhQawDDeglAegHJeAAABhR4Cewhi0R4yw?AtwhglQpg0ilwwBewhglwSAeglxSAeglAewhJeAAAAhwhCe?BtAei0whQ4ywBtRpg0whBewwhlwhCeQaAeQ4AegWAeQaJeA?AA9gwhFeBtAewhi0Q4ywBtwhRpwwR4wwhWglgWAeQpQaPeA?AA4gAtHeBtBeQ4AezhAtywR4wwh0ilwwRaQ4QawSQpglAew?DAewhQpKeAAA9gg0CeR4Dei0R4whxwhlBtxhxSwwQpAPglA?eAthWEeglJeAAA/gglAeR4DeilR4ywRpgWAtxhhHwwg0RpG?eRpAtJeAAA/gglAeR4BeRpilR4ywRpBtQawhhHwwi0GehHK?eAAA9gg0CeR4BeRpi0R4ywRpBtQawhhHwwglRaGeglAegHJ?eAAA9gwhFeBtAewhRpg0Q4ywBtQLRpg0BewwglRawhAPglg?0AeQ4NeAAABhR4CewhRpg0R4ywAtwhglQpg0ilwwBewhQag?0AeAPAewDAeglAewhJeAAA9gwhFeBtAewhglRpQ4ywBtwhg?lRpBewwh0wwwhBPgWAeQ4AeAPAewwJeAAA9gwhFeBtAewhi?lQ4ywBtAeglRpR4wwhlg0AegWwhQpPeAAAAhwhCeBtAeRpg?0whQ4ywBtglQpg0whR4wwhWglQag0QpgWCeglAegHJeAAA7?gQ4BeAtFeR4BtzhywQ4Athlwhi0whQaQpAeAPgHQaAewDg0?gWRpJeAAAAhwhAeR4CeilwhR4xwgWAtglQaQpwhi0wwxSAe?whQpwhDewhwSJeAAAygg0Ieg0Heh0RpzhywAtRpQ4g0glRL?wwBtAeBtQaglAegHMeAAAvgg0Ieg0Heh0BegHRpzhywgWRp?R4ilwwhWTeAAA3gg0Ieh0DeRpzhQaxwAtRpR4glBPwwBtTe?AAAxgglIeglIehlRpxhQLwhywAtRpR4CewwBtDegWAeg0Me?AAAugglIeglIehlAegWAeRpzhxwQpAtRpR4i0wwhlTeAAA5?gglGeglAeglCeRpyhQaywAtRpR4g0BtwwBtTeAAA7gQ4Deg?0DeR4ili0QpxwQ4glBtwhSawwRpAewDwSAtBegHAeQaQpJe?AAA7gRpCeg0DeRpili0xwgWAtglxhQLwhR4wwxSBeBPR4Be?whwSJeAAA4gRpFeg0AeRpCeili0xwglwhglxhQLwhR4wwxh?TeAAAAhwhAeR4CeglRpwhQ4AtglxwAtglRpQLg0RpwwBthl?AewhxDg0MeAAA+gg0CeR4Cegli0R4ywAtglxhAewhBPwwBt?CeQaAeQpwSMeAAA7gQ4Beg0FeR4gli0BtywQ4glQLyhxSww?RpEexSAeQaQpJeAAAygg0Ieg0Heh0zhR4xwgWAtglAPglR4?RpwwxSAegWCeRpAewhwSJeAAAvgg0Ieg0Heh0BegHzhR4yw?gWilR4RpwwhWTeAAA3gg0Ieh0DezhR4QaxwAtilR4xSwwBt?TeAAAAhwhAeR4Cei0xhQ4ywAtRpg0whCPwwBtwhQpAewhgl?xSMeAAAxgglIeglIehlzhR4ywAtj0Q4BPwwBtxSg0QagWRp?MeAAAugglIeglIehlAegWAezhR4xwQpAti0R4RpwwhlTeAA?A5gglGeglAeglCezhQ4zwAti0R4xhwwBtTeAAABhilCezhg?lQ4QpxwAtRph0AtywBtRpgHAeg0wSAtMeAAA9gwhDeR4Cew?hi0R4ywAtwhRpg0CewwBtgWAeQpAeAPAewDMeAAABhilCez?hglQ4ywAtwwh0RpBewwBtQawSRpwhAeQ4MeAAA9gwhDeR4C?ewhRpg0R4ywAtwhRpg0CewwBtwhBeQpQaAewDMeAAA9gwhD?eR4CewhglRpR4ywAtAeglRpg0RawwBtAeglAPgHgWAeg0Me?AAA9gwhDeR4CewhilR4ywAtAeglRpg0RawwBtAegWwhQpPe?AAA7gQ4AewhGeR4whilBtywQ4Aegli0xSwwRpBexSg0AegH?AeQaQpJeAAA9gwhDeR4CewhilR4xwgWAtAegli0RpwwxSEe?RpAewhwSJeAAAAhwhAeR4CeRpg0whR4ywAtglQpg0whglRL?wwBtQah0whAPxSMeAAA7gQ4BeAtFeR4BtzhywQ4Ath0wwgl?RLwwRpAehHwwDeQaQpJeAAABhAtAeR4Bei0BtR4wwgWwwQp?Qag0AtzhgWQLRpAegHgWBeglRaJeAAABhAtAeR4BeRpg0Bt?R4ywRpg0AtwSwhhHwwglwSQpg0QeAAA3ghlIeglBeQ4Aezh?wwglBtR4i0wwwhQpAPwSAtQ4AegHBewwRpiWJeAAA3gh0Ee?AtBeg0EeBtR4AtQpzhAtR4SpwwglQLglBegHQpgWglwSglL?eAAA">スマートフォン向け</a> )</p>
+<hr class="docutils" />
+<p>※ ここより下の分類に記載されている T-Spin Mini と Mini以外 (Regular) は、
+ひとつの地形で共にできる可能性があるため、合計しても地形総数と一致しないケースがあります
+（例は 前提条件3 を参考）</p>
+<hr class="docutils" />
+<section id="id4">
+<h3>ミノの数 ごと<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 8%" />
+<col style="width: 23%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Num</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>186</p></td>
+<td><p>Regular:0, Mini:186</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num4.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num4.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>3916</p></td>
+<td><p>Regular:212, Mini:3704</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num5.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num5.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>70644</p></td>
+<td><p>Regular:8476, Mini:62232</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num6.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num6.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>428888</p></td>
+<td><p>Regular:78868, Mini:351648</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num7.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/num7.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="t-spin">
+<h3>T-Spinの種類 ごと<a class="headerlink" href="#t-spin" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 7%" />
+<col style="width: 22%" />
+<col style="width: 59%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>T-Spin type</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Regular</p></td>
+<td><p>87556</p></td>
+<td><p>Regular:87556, Mini:1692</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/spinRegular.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/spinRegular.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Mini</p></td>
+<td><p>417770</p></td>
+<td><p>Regular:1692, Mini:417770</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/spinMini.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/spinMini.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h3>フィールドの高さ ごと<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 8%" />
+<col style="width: 23%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Height</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>30</p></td>
+<td><p>Regular:0, Mini:30</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height2.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height2.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>1454</p></td>
+<td><p>Regular:102, Mini:1352</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height3.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height3.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>47486</p></td>
+<td><p>Regular:9446, Mini:38040</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height4.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height4.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>182338</p></td>
+<td><p>Regular:36356, Mini:146772</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height5.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height5.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>187348</p></td>
+<td><p>Regular:33000, Mini:155072</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height6.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height6.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>62300</p></td>
+<td><p>Regular:8272, Mini:54206</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height7.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height7.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>11464</p></td>
+<td><p>Regular:378, Mini:11086</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height8.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height8.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>7014</p></td>
+<td><p>Regular:2, Mini:7012</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height9.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height9.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>3610</p></td>
+<td><p>Regular:0, Mini:3610</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height10.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height10.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>590</p></td>
+<td><p>Regular:0, Mini:590</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height11.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/height11.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h3>Tミノの回転方向 ごと<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 8%" />
+<col style="width: 23%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Height</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Reverse</p></td>
+<td><p>46602</p></td>
+<td><p>Regular:46298, Mini:304</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateReverse.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateReverse.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Left</p></td>
+<td><p>211699</p></td>
+<td><p>Regular:20149, Mini:192396</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateLeft.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateLeft.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Right</p></td>
+<td><p>211699</p></td>
+<td><p>Regular:20149, Mini:192396</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateRight.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateRight.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Spawn</p></td>
+<td><p>33634</p></td>
+<td><p>Regular:960, Mini:32674</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateSpawn.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/rotateSpawn.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tx-0">
+<h3>Tミノの回転軸のx座標 ごと (0=一番左の列)<a class="headerlink" href="#tx-0" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 8%" />
+<col style="width: 23%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>X</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>127692</p></td>
+<td><p>Regular:0, Mini:127692</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x0.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x0.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>8138</p></td>
+<td><p>Regular:1426, Mini:6741</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x1.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x1.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>28071</p></td>
+<td><p>Regular:9563, Mini:18679</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x2.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x2.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>41506</p></td>
+<td><p>Regular:15106, Mini:26722</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x3.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x3.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>46410</p></td>
+<td><p>Regular:17683, Mini:29051</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x4.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x4.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>46410</p></td>
+<td><p>Regular:17683, Mini:29051</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x5.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x5.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>41506</p></td>
+<td><p>Regular:15106, Mini:26722</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x6.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x6.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>28071</p></td>
+<td><p>Regular:9563, Mini:18679</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x7.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x7.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>8138</p></td>
+<td><p>Regular:1426, Mini:6741</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x8.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x8.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>127692</p></td>
+<td><p>Regular:0, Mini:127692</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x9.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/x9.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ty-0">
+<h3>Tミノの回転軸のy座標 ごと (0=一番下の段)<a class="headerlink" href="#ty-0" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 8%" />
+<col style="width: 23%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Y</p></th>
+<th class="head"><p>Sum</p></th>
+<th class="head"><p>T-Spin type</p></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>2802</p></td>
+<td><p>Regular:0, Mini:2802</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y0.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y0.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>18810</p></td>
+<td><p>Regular:7550, Mini:12898</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y1.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y1.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>117154</p></td>
+<td><p>Regular:36062, Mini:81146</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y2.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y2.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>181644</p></td>
+<td><p>Regular:35756, Mini:145888</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y3.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y3.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>123514</p></td>
+<td><p>Regular:7870, Mini:115644</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y4.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y4.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>38608</p></td>
+<td><p>Regular:318, Mini:38290</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y5.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y5.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>9910</p></td>
+<td><p>Regular:0, Mini:9910</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y6.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y6.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>6992</p></td>
+<td><p>Regular:0, Mini:6992</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y7.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y7.html</a></p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>3610</p></td>
+<td><p>Regular:0, Mini:3610</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y8.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y8.html</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>590</p></td>
+<td><p>Regular:0, Mini:590</p></td>
+<td><p><a class="reference external" href="https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y9.html">https://s3-ap-northeast-1.amazonaws.com/sfinder/store/tspins/y9.html</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
 
            </div>
-           <div class="articleComments">
-            
-           </div>
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="opening_tss_tst.html" class="btn btn-neutral float-right" title="開幕TSS-&gt;TST" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="2pcsystem/second_without_t.html" class="btn btn-neutral" title="パフェ2回目：Tなし" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="2pcsystem/second_without_t.html" class="btn btn-neutral float-left" title="パフェ2回目：Tなし" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="opening_tss_tst.html" class="btn btn-neutral float-right" title="開幕TSS-&gt;TST" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        &copy; Copyright 2017-2021, knewjade.
-
-    </p>
+    <p>&#169; Copyright 2017-2021, knewjade.</p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'1.0',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="_static/translations.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
