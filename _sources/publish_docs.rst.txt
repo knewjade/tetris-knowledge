@@ -15,7 +15,7 @@ Perfect Clear Data / Google drive
 * 各四角形 (2x4,3x4,2x6,....)をつくるミノの組み合わせを列挙したHTMLファイル
 * 4x10 (理論的に存在するすべてのパフェパターン)をまとめた画像
 
-https://drive.google.com/drive/folders/0B00KkBO1iqy2a2dLSVNpaDhiN0E
+https://drive.google.com/drive/folders/0B00KkBO1iqy2a2dLSVNpaDhiN0E?resourcekey=0-gFtMKcldhv7aViCciB8kaQ&usp=sharing
 
 
 テト譜v115のデータ構造
