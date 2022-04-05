@@ -49,3 +49,13 @@ mobliss (beta)
 永遠のベータ版。
 
 https://s3-ap-northeast-1.amazonaws.com/mobliss/index.html
+
+
+tetris-fumen
+===========================================
+
+テト譜のパーサー用NPMパッケージです。
+
+`オリジナルである 連続テト譜エディタ の仕様 <https://knewjade.github.io/tetris-knowledge/publish_docs.html#v115>`_ をもとに作者が実装したもので、オリジナルとの関連性はありません。
+
+https://www.npmjs.com/package/tetris-fumen

@@ -17,7 +17,7 @@ Welcome
 .. toctree::
    :hidden:
 
-   publish_tools
+   publish_codes
    publish_links
    publish_docs
    publish_pc
