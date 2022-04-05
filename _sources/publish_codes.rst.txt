@@ -1,5 +1,5 @@
 ========================
-つくったツール
+作成したコード
 ========================
 
 solution-finder
@@ -56,6 +56,6 @@ tetris-fumen
 
 テト譜のパーサー用NPMパッケージです。
 
-`オリジナルである 連続テト譜エディタ の仕様 <https://knewjade.github.io/tetris-knowledge/publish_docs.html#v115>`_ をもとに作者が実装したもので、オリジナルとの関連性はありません。
+`オリジナルである 連続テト譜エディタ(Mihysさん) の仕様 <https://knewjade.github.io/tetris-knowledge/publish_docs.html#v115>`_ をもとに、筆者(knewjade)が実装したものとなります。
 
 https://www.npmjs.com/package/tetris-fumen

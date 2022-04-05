@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/0B00KkBO1iqy2a2dLSVNpaDhiN0E?resourcekey=
 
 テト譜のデータ (``v115@vhAAgH`` とか) の仕様をまとめたスライドです。
 
-オリジナルである `連続テト譜エディタ <https://fumen.zui.jp/>`_ の仕様をもとに説明しています。
+オリジナルである `連続テト譜エディタ(Mihysさん) <https://fumen.zui.jp/>`_ の仕様をもとに説明しています。
 
 https://docs.google.com/presentation/d/1P5xt0vPGuxSb9hbRW6hvQFYKFoIccfNTJkWTdjtyigc
 
