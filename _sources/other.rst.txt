@@ -49,15 +49,18 @@ Zetrisの対戦動画は面白いので興味がある方は `Zetrisのチャン
 ちなみに自分が作成した部分のソースコードは https://github.com/knewjade/sfinder-cpp
 
 
-HATETRIS 66ライン
+HATETRIS 66->289ライン
 ===================================================================
 
 HATETRISはこちらからプレイできます: https://qntm.org/hatetris
 
 2022年5月29日までHATETRISでの最高記録であった、66ラインとなる手順を見つけました。
+その後記録を更新して、2022年11月26日現在の最高記録である、289ラインとなる手順を見つけました。
+
 リプレイはHATETRISのトップページに載っているので、そちらからご覧ください。
-(`こちらの当時のツイート <https://twitter.com/1millim/status/1429774558379216907>`_ からも確認できます。)
+(こちらの当時の `66Lツイート <https://twitter.com/1millim/status/1429774558379216907>`_ `289Lツイート <https://twitter.com/1millim/status/1596350641592733698>`_ からも確認できます。)
 
 この記録を得るまでにやったことは、以下の記事にまとめています。もし同じように挑戦する方の参考になればと思います。
 
-https://gist.github.com/knewjade/586c9d82bd53f13afa8bcb7a65f8bd5a
++ 66Lまで(with Heuristic) https://gist.github.com/knewjade/586c9d82bd53f13afa8bcb7a65f8bd5a
++ 289Lまで(with Neural Networks) https://gist.github.com/knewjade/24fd3a655e5321c8ebac8b93fa497ed9
