@@ -18,7 +18,7 @@
 連絡先
 ------------------------
 
-疑問点や指摘がございましたら、twitter から 作者(knewjade) までご連絡ください
+疑問点や指摘がございましたら、X (旧Twitter) から 作者(knewjade) までご連絡ください
 
 * `X (旧Twitter) @1millim <https://twitter.com/1millim>`_
 * `GitHub @knewjade <https://github.com/knewjade>`_
