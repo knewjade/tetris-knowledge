@@ -20,6 +20,16 @@ https://gist.github.com/knewjade/79b6bac0b03bc059ee1b0ab1bd4d7c3a
 https://gist.github.com/knewjade/0a44ae8178526746477e5830bd38107c
 
 
+`テトリス Advent Calendar 2024 <https://adventar.org/calendars/9931>`_
+=========================================================================
+
+アドカレに寄稿した記事です。
+
+16日目：テトリスにおける合法手生成
+
+https://gist.github.com/knewjade/df3403a266c4eea33c2c94fb3fb7c3b2
+
+
 ぷよぷよテトリス 40ライン 19.71秒 / (mat1jaczyyyさんへの協力)
 ===================================================================
 
